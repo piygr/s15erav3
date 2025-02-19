@@ -180,8 +180,8 @@ class MultiHeadLatentAttention(nn.Module):
 
 
 
-    def forward(self, hidden_states, attention_mask=None, position_embeddings=None):
-        batch, seq_len = hidden_states.shape[:-1]
+    def forward(self, hidden_states, position_ids=None, attention_mask=None, position_embeddings=None):
+        batch, seq_len, _ = hidden_states.shape
         #hidden_shape = (batch, seq_len, -1, self.head_dim)
 
         kv_d = self.kv_proj_d(hidden_states)    # [ B, seq_len, latent_dim ]
@@ -202,7 +202,7 @@ class MultiHeadLatentAttention(nn.Module):
         q_rope_2 = q_rope_2.view(batch, seq_len, self.num_attention_heads, self.head_dim // 2)
 
         #Apply RoPE to KQ
-        rotary_emb = self.rotary_emb(seq_len, hidden_states)
+        rotary_emb = self.rotary_emb(hidden_states, position_ids)
         k_rope_2 = self.rotary_emb.apply_rotary_emb(k_rope_2, rotary_emb)
         q_rope_2 = self.rotary_emb.apply_rotary_emb(q_rope_2, rotary_emb)
 
@@ -266,7 +266,7 @@ class DeepseekTransformerBlock(nn.Module):
 
         self.layer_norm_2 = LlamaRMSNorm(self.hidden_size, eps=eps)
 
-    def forward(self, hidden_states, attention_mask=None, position_embeddings=None):
+    def forward(self, hidden_states, position_ids=None, attention_mask=None, position_embeddings=None):
         # Layer normalization
         residual = hidden_states
         hidden_states = self.layer_norm_1(hidden_states)
@@ -304,7 +304,7 @@ class DeepseekTransformerBlock(nn.Module):
         # Output projection
         attention_output = self.out_proj(attention_output)
         '''
-        attention_output = self.attn(hidden_states)
+        attention_output = self.attn(hidden_states, position_ids)
 
         # Residual connection
         hidden_states = residual + attention_output
@@ -369,8 +369,8 @@ class CustomDeepSeekV3(nn.Module):
 
     def forward(self, input_ids, attention_mask=None):
         batch_size, seq_length = input_ids.size()
-        #position_ids = torch.arange(0, seq_length, dtype=torch.long, device=input_ids.device)
-        #position_ids = position_ids.unsqueeze(0).expand(batch_size, -1)
+        position_ids = torch.arange(0, seq_length, device=input_ids.device)
+        position_ids = position_ids.unsqueeze(0).expand(batch_size, -1)
 
         embeddings = self.embedding(input_ids)
 
@@ -378,7 +378,7 @@ class CustomDeepSeekV3(nn.Module):
         #position_embeddings = self.rotary_emb(hidden_states, position_ids)
 
         for layer in self.layers:
-            hidden_states = layer(hidden_states, attention_mask=attention_mask)
+            hidden_states = layer(hidden_states, position_ids=position_ids, attention_mask=attention_mask)
 
         hidden_states = self.layer_norm(hidden_states)
         logits = self.lm_head(hidden_states)
