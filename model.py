@@ -250,7 +250,7 @@ class DeepseekTransformerBlock(nn.Module):
         #self.num_key_value_heads = num_key_value_heads
         self.head_dim = hidden_size // num_attention_heads
         assert self.head_dim * num_attention_heads == hidden_size, "Hidden size must be divisible by the number of attention heads."
-        assert self.hidden_size % self.num_key_value_heads == 0, "hidden_size must be divisible by num_key_value_heads"
+        #assert self.hidden_size % self.num_key_value_heads == 0, "hidden_size must be divisible by num_key_value_heads"
 
         self.layer_norm_1 = LlamaRMSNorm(self.hidden_size, eps=eps)
 
