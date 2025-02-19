@@ -82,15 +82,15 @@ def load_checkpoint(checkpoint_path, model, optimizer=None, scheduler=None):
 def update_routing_bias(model, input_ids):
     for i in range(len(model.layers)):
         expert_load = torch.zeros(model.layers[i].feed_forward.num_routed_experts, device=device)
-        for k in range(model.layers[i].feed_forward.top_k):
+        for k in range(model.layers[i].feed_forward.top_k_experts):
             routing_logits = model.layers[i].feed_forward.router(input_ids) + model.layers[i].feed_forward.routing_bias
             routing_probs = torch.sigmoid(routing_logits)
-            _, indices = torch.topk(routing_probs, model.layers[i].feed_forward.top_k, dim=-1)
+            _, indices = torch.topk(routing_probs, model.layers[i].feed_forward.top_k_experts, dim=-1)
 
             for idx in range(model.layers[i].feed_forward.num_routed_experts):
                 expert_load[idx] += (indices[..., k] == idx).sum()
 
-        expert_load = expert_load / (input_ids.size(0) * input_ids.size(1) * model.layers[i].feed_forward.top_k)
+        expert_load = expert_load / (input_ids.size(0) * input_ids.size(1) * model.layers[i].feed_forward.top_k_experts)
         model.layers[i].feed_forward.update_bias_terms(expert_load)
 
 
@@ -119,10 +119,10 @@ def train(config):
 
     # Load the dataset with the specified config
     train_dataset = load_data_stream(
-        dataset_name="HuggingFaceTB/cosmopedia-v2",
+        dataset_name=config['data_stages']['data']['dataset_name'],
         split="train",
         tokenizer=tokenizer,  # Ensure tokenizer is defined
-        block_size=128,  # Adjust block size as needed
+        block_size=config['tokens']['sequence_length'],  # Adjust block size as needed
         config=config_name  # Pass the configuration explicitly
     )
 
@@ -158,7 +158,7 @@ def train(config):
         start_step, loss = load_checkpoint(resume_checkpoint_path, model, optimizer)
 
     max_steps = config['tokens']['train_steps']
-    sample_prompt = "This is a"
+    sample_prompt = "United States of America and India both have one common shared principal and that is"
 
     for step, batch in enumerate(train_dataloader, start=start_step):
         if step >= max_steps:

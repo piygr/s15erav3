@@ -6,12 +6,8 @@ checkpoints:
   save_final_state: true
   save_initial_state: false
 data_stages:
-- data:
-    dataset:
-      dataset_folder:
-      - datasets/smollm2-corpus
-      dataset_weights:
-      - 1.0
+  data:
+    dataset_name: HuggingFaceTB/cosmopedia-v2
     num_loading_workers: 0
     seed: 8
   name: stable phase
@@ -25,7 +21,7 @@ general:
   seed: 8
   step: null
 logging:
-  iteration_step_info_interval: 1
+  iteration_step_info_interval: 10
   log_level: info
   log_level_replica: info
 model:
@@ -38,12 +34,12 @@ model:
     bos_token_id: 0
     eos_token_id: 0
     hidden_act: silu
-    hidden_size: 576
+    hidden_size: 768
     initializer_range: 0.041666666666666664
     intermediate_size: 1536
     is_llama_config: true
     max_position_embeddings: 2048
-    num_attention_heads: 9
+    num_attention_heads: 8
     num_hidden_layers: 30
     num_key_value_heads: 3
     pad_token_id: null
@@ -55,6 +51,10 @@ model:
     tie_word_embeddings: true
     use_cache: true
     vocab_size: 49152
+    compression_ratio: 8
+    num_experts: 8
+    num_shared_experts: 1
+    top_k_experts: 2
 optimizer:
   accumulate_grad_in_fp32: true
   clip_grad: 1.0

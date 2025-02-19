@@ -65,13 +65,13 @@ class DeepSeekMoE(nn.Module):
                  num_attention_heads,
                  num_experts=8,
                  num_shared_experts=1,
-                 top_k=2):
+                 top_k_experts=2):
         super().__init__()
 
         self.num_experts = num_experts
         self.num_shared_experts = num_shared_experts
         self.num_attention_heads = num_attention_heads
-        self.top_k = top_k
+        self.top_k_experts = top_k_experts
 
         self.num_routed_experts = num_experts - num_shared_experts
 
@@ -103,7 +103,7 @@ class DeepSeekMoE(nn.Module):
 
         #Get top-k experts per token
         routing_probs = torch.sigmoid(routing_logits)
-        scores, indices = torch.topk(routing_probs, self.top_k, dim=-1)
+        scores, indices = torch.topk(routing_probs, self.top_k_experts, dim=-1)
 
         #Normalize top-k scores
         scores = scores / scores.sum(dim=-1, keepdim=True)
@@ -111,7 +111,7 @@ class DeepSeekMoE(nn.Module):
         #Combined output
         combined_output = torch.zeros_like(x)
 
-        for k in range(self.top_k):
+        for k in range(self.top_k_experts):
             expert_indices = indices[..., k]
             expert_scores = scores[..., k:k+1]
 
@@ -233,9 +233,17 @@ class MultiHeadLatentAttention(nn.Module):
 
 
 
-class TransformerBlock(nn.Module):
-    def __init__(self, hidden_size, num_attention_heads, intermediate_size, eps):
-        super(TransformerBlock, self).__init__()
+class DeepseekTransformerBlock(nn.Module):
+    def __init__(self,
+                 hidden_size,
+                 num_attention_heads,
+                 intermediate_size,
+                 num_experts,
+                 num_shared_experts,
+                 top_k_experts,
+                 compression_ratio,
+                 eps):
+        super(DeepseekTransformerBlock, self).__init__()
         self.hidden_size = hidden_size
         self.num_attention_heads = num_attention_heads
 
@@ -246,15 +254,15 @@ class TransformerBlock(nn.Module):
 
         self.layer_norm_1 = LlamaRMSNorm(self.hidden_size, eps=eps)
 
-        self.attn = MultiHeadLatentAttention(hidden_size, num_attention_heads, compression_ratio=8)
+        self.attn = MultiHeadLatentAttention(hidden_size, num_attention_heads, compression_ratio=compression_ratio)
 
         # Feedforward layer
         self.feed_forward = DeepSeekMoE(hidden_size,
                                         intermediate_size,
                                         num_attention_heads,
-                                        num_experts=8,
-                                        num_shared_experts=1,
-                                        top_k=2)
+                                        num_experts=num_experts,
+                                        num_shared_experts=num_shared_experts,
+                                        top_k_experts=top_k_experts)
 
         self.layer_norm_2 = LlamaRMSNorm(self.hidden_size, eps=eps)
 
@@ -320,8 +328,14 @@ class CustomDeepSeekV3(nn.Module):
         self.hidden_size = config['hidden_size']
         self.num_hidden_layers = config['num_hidden_layers']
         self.num_attention_heads = config['num_attention_heads']
-        self.num_key_value_heads = config['num_key_value_heads']
-        self.max_position_embeddings = config['max_position_embeddings']
+        #self.num_key_value_heads = config['num_key_value_heads']
+        #self.max_position_embeddings = config['max_position_embeddings']
+
+        self.num_experts = config['num_experts']
+        self.num_shared_experts = config['num_shared_experts']
+        self.top_k_experts = config['top_k_experts']
+        self.compression_ratio = config['compression_ratio']
+
         self.intermediate_size = config['intermediate_size']
         self.initializer_range = config['initializer_range']
         self.eps = config['rms_norm_eps']
@@ -331,10 +345,14 @@ class CustomDeepSeekV3(nn.Module):
         self.embedding = nn.Embedding(self.vocab_size, self.hidden_size)
 
         self.layers = nn.ModuleList([
-            TransformerBlock(
+            DeepseekTransformerBlock(
                 self.hidden_size,
                 self.num_attention_heads,
                 self.intermediate_size,
+                self.num_experts,
+                self.num_shared_experts,
+                self.top_k_experts,
+                self.compression_ratio,
                 self.eps
             ) for _ in range(self.num_hidden_layers)
         ])
