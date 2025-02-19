@@ -203,8 +203,11 @@ class MultiHeadLatentAttention(nn.Module):
 
         #Apply RoPE to KQ
         rotary_emb = self.rotary_emb(hidden_states, position_ids)
-        k_rope_2 = self.rotary_emb.apply_rotary_emb(k_rope_2, rotary_emb)
-        q_rope_2 = self.rotary_emb.apply_rotary_emb(q_rope_2, rotary_emb)
+        #k_rope_2 = self.rotary_emb.apply_rotary_emb(k_rope_2, rotary_emb)
+        #q_rope_2 = self.rotary_emb.apply_rotary_emb(q_rope_2, rotary_emb)
+
+        cos, sin = rotary_emb
+        q_rope_2, k_rope_2 = apply_rotary_pos_emb(q_rope_2, k_rope_2, cos, sin)
 
         k = torch.cat([k_proj_2, k_rope_2], dim=-1)
         q = torch.cat([q_proj_2, q_rope_2], dim=-1)
