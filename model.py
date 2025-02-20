@@ -8,38 +8,78 @@ from transformers.models.llama.modeling_llama import (
 )
 
 
-def apply_rotary_pos_emb(q, k, cos, sin, position_ids=None, unsqueeze_dim=1):
-    """Applies Rotary Position Embedding to the query and key tensors.
+class DeepseekRotaryEmbedding(nn.Module):
+    def __init__(self, dim, base=10000, max_seq_len=2048):
+        """
+        Args:
+            dim (int): The dimensionality of rotary embeddings.
+            base (float): The base for RoPE frequency scaling.
+            max_seq_len (int): Maximum sequence length supported.
+        """
+        super().__init__()
+        self.dim = dim // 2  # RoPE is applied to half of the dimensions
+        self.base = base
+        self.max_seq_len = max_seq_len
 
-    Args:
-        q (`torch.Tensor`): The query tensor.
-        k (`torch.Tensor`): The key tensor.
-        cos (`torch.Tensor`): The cosine part of the rotary embedding.
-        sin (`torch.Tensor`): The sine part of the rotary embedding.
-        position_ids (`torch.Tensor`, *optional*):
-            Deprecated and unused.
-        unsqueeze_dim (`int`, *optional*, defaults to 1):
-            The 'unsqueeze_dim' argument specifies the dimension along which to unsqueeze cos[position_ids] and
-            sin[position_ids] so that they can be properly broadcasted to the dimensions of q and k. For example, note
-            that cos[position_ids] and sin[position_ids] have the shape [batch_size, seq_len, head_dim]. Then, if q and
-            k have the shape [batch_size, heads, seq_len, head_dim], then setting unsqueeze_dim=1 makes
-            cos[position_ids] and sin[position_ids] broadcastable to the shapes of q and k. Similarly, if q and k have
-            the shape [batch_size, seq_len, heads, head_dim], then set unsqueeze_dim=2.
-    Returns:
-        `tuple(torch.Tensor)` comprising of the query and key tensors rotated using the Rotary Position Embedding.
-    """
-    cos = cos.unsqueeze(unsqueeze_dim)
-    sin = sin.unsqueeze(unsqueeze_dim)
-    q_embed = (q * cos) + (rotate_half(q) * sin)
-    k_embed = (k * cos) + (rotate_half(k) * sin)
-    return q_embed, k_embed
+        # Precompute sin and cos values for efficiency
+        inv_freq = 1.0 / (self.base ** (torch.arange(0, self.dim, 2).float() / self.dim))
+        t = torch.arange(self.max_seq_len, dtype=torch.float32)[:, None]  # Shape: [max_seq_len, 1]
+
+        freqs = torch.einsum("i,j->ij", t, inv_freq)  # Outer product: [max_seq_len, dim/2]
+        self.register_buffer("cos", torch.cos(freqs))
+        self.register_buffer("sin", torch.sin(freqs))
+
+    def forward(self, x, position_ids):
+        """
+        Args:
+            x (tensor): Input tensor of shape [batch_size, seq_len, num_heads, head_dim].
+            position_ids (tensor): Tensor of shape [batch_size, seq_len] indicating token positions.
+
+        Returns:
+            Tensor: Rotated version of input tensor `x`.
+        """
+        seq_len = x.shape[1]  # Extract sequence length
+        assert self.max_seq_len == seq_len, "Sequence length mismatched."
+        cos = self.cos[position_ids].to(x.device)  # Shape: [batch, seq_len, head_dim/2]
+        sin = self.sin[position_ids].to(x.device)
+
+        return cos, sin
+
+    def apply_rotary_pos_emb(self, q, k, cos, sin, position_ids=None, unsqueeze_dim=1):
+        """Applies Rotary Position Embedding to the query and key tensors.
+
+        Args:
+            q (`torch.Tensor`): The query tensor.
+            k (`torch.Tensor`): The key tensor.
+            cos (`torch.Tensor`): The cosine part of the rotary embedding.
+            sin (`torch.Tensor`): The sine part of the rotary embedding.
+            position_ids (`torch.Tensor`, *optional*):
+                Deprecated and unused.
+            unsqueeze_dim (`int`, *optional*, defaults to 1):
+                The 'unsqueeze_dim' argument specifies the dimension along which to unsqueeze cos[position_ids] and
+                sin[position_ids] so that they can be properly broadcasted to the dimensions of q and k. For example, note
+                that cos[position_ids] and sin[position_ids] have the shape [batch_size, seq_len, head_dim]. Then, if q and
+                k have the shape [batch_size, heads, seq_len, head_dim], then setting unsqueeze_dim=1 makes
+                cos[position_ids] and sin[position_ids] broadcastable to the shapes of q and k. Similarly, if q and k have
+                the shape [batch_size, seq_len, heads, head_dim], then set unsqueeze_dim=2.
+        Returns:
+            `tuple(torch.Tensor)` comprising of the query and key tensors rotated using the Rotary Position Embedding.
+        """
+        cos = cos.unsqueeze(unsqueeze_dim)
+        sin = sin.unsqueeze(unsqueeze_dim)
+
+        #assert q.
+        q_embed = (q * cos) + (self.rotate_half(q) * sin)
+        k_embed = (k * cos) + (self.rotate_half(k) * sin)
+        return q_embed, k_embed
 
 
-def rotate_half(x):
-    """Rotates half the hidden dims of the input."""
-    x1 = x[..., : x.shape[-1] // 2]
-    x2 = x[..., x.shape[-1] // 2 :]
-    return torch.cat((-x2, x1), dim=-1)
+    def rotate_half(self, x):
+        """Rotates half the hidden dims of the input."""
+        x1 = x[..., : x.shape[-1] // 2]
+        x2 = x[..., x.shape[-1] // 2 :]
+        return torch.cat((-x2, x1), dim=-1)
+
 
 
 class MLP(nn.Module):   ###Inspired from LLamaMLP
@@ -141,7 +181,7 @@ class DeepSeekMoE(nn.Module):
 
 
 class MultiHeadLatentAttention(nn.Module):
-    def __init__(self, hidden_size, num_attention_heads, compression_ratio=8):
+    def __init__(self, hidden_size, num_attention_heads, seq_len, compression_ratio=8):
         super().__init__()
 
         self.hidden_size = hidden_size
@@ -157,7 +197,7 @@ class MultiHeadLatentAttention(nn.Module):
         self.is_causal = True
 
         #RoPE Emeddings : Half size for RoPE components
-        self.rotary_emb = LlamaRotaryEmbedding(self.head_dim//2)
+        self.rotary_emb = DeepseekRotaryEmbedding(self.head_dim, max_seq_len=seq_len)
         # Query, Key, Value projections
         #self.q_proj = nn.Linear(hidden_size, self.head_dim * num_attention_heads, bias=False)
         #self.k_proj = nn.Linear(hidden_size, self.head_dim * num_key_value_heads, bias=False)
@@ -197,22 +237,19 @@ class MultiHeadLatentAttention(nn.Module):
         # Reshape components for heads before RoPE
 
         k_proj_2 = k_proj_2.view(batch, seq_len, self.num_attention_heads, self.head_dim // 2)
-
+        k_rope_2 = k_rope_2.view(batch, seq_len, self.num_attention_heads, self.head_dim // 2)
         q_proj_2 = q_proj_2.view(batch, seq_len, self.num_attention_heads, self.head_dim // 2)
+        q_rope_2 = q_rope_2.view(batch, seq_len, self.num_attention_heads, self.head_dim // 2)
 
         #Apply RoPE to KQ
-        rotary_emb = self.rotary_emb(hidden_states, position_ids)
+        position_embeddings = self.rotary_emb(hidden_states, position_ids)
 
         #k_rope_2 = self.rotary_emb.apply_rotary_emb(k_rope_2, rotary_emb)
         #q_rope_2 = self.rotary_emb.apply_rotary_emb(q_rope_2, rotary_emb)
 
-        cos, sin = rotary_emb
-        print(cos.shape, sin.shape)
-        print(q_rope_2.shape, k_rope_2.shape)
-        q_rope_2, k_rope_2 = apply_rotary_pos_emb(q_rope_2, k_rope_2, cos, sin)
+        cos, sin = position_embeddings
 
-        k_rope_2 = k_rope_2.view(batch, seq_len, self.num_attention_heads, self.head_dim // 2)
-        q_rope_2 = q_rope_2.view(batch, seq_len, self.num_attention_heads, self.head_dim // 2)
+        q_rope_2, k_rope_2 = self.rotary_emb.apply_rotary_pos_emb(q_rope_2, k_rope_2, cos, sin)
 
         k = torch.cat([k_proj_2, k_rope_2], dim=-1)
         q = torch.cat([q_proj_2, q_rope_2], dim=-1)
@@ -250,11 +287,12 @@ class DeepseekTransformerBlock(nn.Module):
                  num_shared_experts,
                  top_k_experts,
                  compression_ratio,
-                 eps):
+                 eps,
+                 seq_len):
         super(DeepseekTransformerBlock, self).__init__()
         self.hidden_size = hidden_size
         self.num_attention_heads = num_attention_heads
-
+        self.seq_len = seq_len
         #self.num_key_value_heads = num_key_value_heads
         self.head_dim = hidden_size // num_attention_heads
         assert self.head_dim * num_attention_heads == hidden_size, "Hidden size must be divisible by the number of attention heads."
@@ -262,7 +300,7 @@ class DeepseekTransformerBlock(nn.Module):
 
         self.layer_norm_1 = LlamaRMSNorm(self.hidden_size, eps=eps)
 
-        self.attn = MultiHeadLatentAttention(hidden_size, num_attention_heads, compression_ratio=compression_ratio)
+        self.attn = MultiHeadLatentAttention(hidden_size, num_attention_heads, seq_len=seq_len, compression_ratio=compression_ratio)
 
         # Feedforward layer
         self.feed_forward = DeepSeekMoE(hidden_size,
@@ -336,6 +374,7 @@ class CustomDeepSeekV3(nn.Module):
         self.hidden_size = config['hidden_size']
         self.num_hidden_layers = config['num_hidden_layers']
         self.num_attention_heads = config['num_attention_heads']
+        self.seq_len = config['sequence_length']
         #self.num_key_value_heads = config['num_key_value_heads']
         #self.max_position_embeddings = config['max_position_embeddings']
 
@@ -361,7 +400,8 @@ class CustomDeepSeekV3(nn.Module):
                 self.num_shared_experts,
                 self.top_k_experts,
                 self.compression_ratio,
-                self.eps
+                self.eps,
+                self.seq_len
             ) for _ in range(self.num_hidden_layers)
         ])
 

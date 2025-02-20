@@ -104,7 +104,7 @@ def train(config):
 
     summary(
         model,
-        input_size=(1, config['tokens']['sequence_length']),  # Example input size: (batch_size=1, seq_length=128)
+        input_size=(1, config['model']['model_config']['sequence_length']),  # Example input size: (batch_size=1, seq_length=128)
         dtypes=[torch.long],  # Specify input data type
         col_names=["input_size", "output_size", "num_params", "trainable"],
         col_width=20,  # Adjust column width for better readability
@@ -122,7 +122,7 @@ def train(config):
         dataset_name=config['data_stages']['data']['dataset_name'],
         split="train",
         tokenizer=tokenizer,  # Ensure tokenizer is defined
-        block_size=config['tokens']['sequence_length'],  # Adjust block size as needed
+        block_size=config['model']['model_config']['sequence_length'],  # Adjust block size as needed
         config=config_name  # Pass the configuration explicitly
     )
 

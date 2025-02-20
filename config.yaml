@@ -55,6 +55,7 @@ model:
     num_experts: 8
     num_shared_experts: 1
     top_k_experts: 2
+    sequence_length: 2048
 optimizer:
   accumulate_grad_in_fp32: true
   clip_grad: 1.0
@@ -95,6 +96,5 @@ tokens:
   limit_val_batches: 0
   batch_size: 256
   micro_batch_size: 8
-  sequence_length: 2048
   train_steps: 15000
   val_check_interval: 500
