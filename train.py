@@ -80,10 +80,11 @@ def load_checkpoint(checkpoint_path, model, optimizer=None, scheduler=None):
 
 
 def update_routing_bias(model, input_ids):
+    input_embeds = model.embedding(input_ids)
     for i in range(len(model.layers)):
         expert_load = torch.zeros(model.layers[i].feed_forward.num_routed_experts, device=device)
         for k in range(model.layers[i].feed_forward.top_k_experts):
-            routing_logits = model.layers[i].feed_forward.router(input_ids) + model.layers[i].feed_forward.routing_bias
+            routing_logits = model.layers[i].feed_forward.router(input_embeds) + model.layers[i].feed_forward.routing_bias
             routing_probs = torch.sigmoid(routing_logits)
             _, indices = torch.topk(routing_probs, model.layers[i].feed_forward.top_k_experts, dim=-1)
 
