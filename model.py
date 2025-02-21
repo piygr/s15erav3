@@ -1,4 +1,6 @@
 # model.py
+import logging
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -7,59 +9,39 @@ from transformers.models.llama.modeling_llama import (
     LlamaRMSNorm,
 )
 
+def apply_rotary_pos_emb(x: torch.Tensor, rotary_emb: torch.Tensor) -> torch.Tensor:
+    head_dim = x.shape[-1]
+    x1, x2 = x[..., :head_dim // 2], x[..., head_dim // 2:]
+    sin, cos = rotary_emb[..., :head_dim // 2], rotary_emb[..., head_dim // 2:]
+    rotated_x = torch.cat([x1 * cos - x2 * sin, x1 * sin + x2 * cos], dim=-1)
+    return rotated_x
 
 class DeepseekRotaryEmbedding(nn.Module):
-    def __init__(self, dim, base=10000, max_seq_len=2048):
-        """
-        Rotary Positional Embedding for DeepSeek-V3.
-
-        Args:
-            dim (int): Dimension size (typically half of head_dim).
-            base (int): Frequency base.
-            max_seq_len (int): Maximum sequence length.
-        """
+    def __init__(self, dim: int, max_position_embeddings: int = 2048, base: float = 10000.0):
         super().__init__()
+        inv_freq = 1.0 / (base ** (torch.arange(0, dim, 2).float() / dim))
+        self.register_buffer("inv_freq", inv_freq)
+        self.max_position_embeddings = max_position_embeddings
         self.dim = dim
-        self.base = base
-        self.max_seq_len = max_seq_len
 
-        # Compute inverse frequency
-        inv_freq = 1.0 / (self.base ** (torch.arange(0, self.dim, 2).float() / self.dim))
+    def forward(self, seq_len: int, device: torch.device) -> torch.Tensor:
+        '''if seq_len <= 0:
+            logging.warning(f"Invalid seq_len: {seq_len}, setting to 1")
+            seq_len = 1
+        if seq_len > self.max_position_embeddings:
+            logging.warning(
+                f"seq_len {seq_len} exceeds max_position_embeddings {self.max_position_embeddings}, truncating")
+            seq_len = self.max_position_embeddings'''
 
-        # Compute frequency matrix (Outer product)
-        t = torch.arange(self.max_seq_len, dtype=torch.float32)  # Shape: [max_seq_len]
-        freqs = torch.einsum("i,j->ij", t, inv_freq)  # Shape: [max_seq_len, dim/2]
+        positions = torch.arange(seq_len, device=device)
+        sincos = torch.einsum("i,j->ij", positions.float(), self.inv_freq)
+        emb = torch.cat((sincos.sin(), sincos.cos()), dim=-1)
+        # Rearranged so that seq_len is in dimension 2
+        return emb[None, None, :, :]
 
-        # Store sine and cosine embeddings
-        self.register_buffer("cos", torch.cos(freqs), persistent=False)
-        self.register_buffer("sin", torch.sin(freqs), persistent=False)
-
-    def forward(self, position_ids):
-        """
-        Get RoPE cos/sin values for given position IDs.
-
-        Args:
-            position_ids (Tensor): Position tensor of shape [batch, seq_len].
-
-        Returns:
-            cos, sin: Tensors of shape [batch, seq_len, dim/2].
-        """
-        cos = self.cos[position_ids].to(position_ids.device)
-        sin = self.sin[position_ids].to(position_ids.device)
-
-        #print('cos, sin: ', cos.shape, sin.shape)
-        return cos, sin
-
-    def apply_rotary_pos_emb(self, q, k, cos, sin):
-        def rotate_half(x):
-            """Rotates half the dimensions."""
-            x1, x2 = x[..., :x.shape[-1] // 2], x[..., x.shape[-1] // 2:]
-            return torch.cat([-x2, x1], dim=-1)
-
-        q_embed = (q * cos) + (rotate_half(q) * sin)
-        k_embed = (k * cos) + (rotate_half(k) * sin)
-
-        return q_embed, k_embed
+    def apply_rotary_emb(self, x: torch.Tensor, rotary_emb: torch.Tensor) -> torch.Tensor:
+        # Wrapper to use the standalone function
+        return apply_rotary_pos_emb(x, rotary_emb)
 
 
 class MLP(nn.Module):  ###Inspired from LLamaMLP
@@ -173,7 +155,7 @@ class MultiHeadLatentAttention(nn.Module):
         self.is_causal = True
 
         # RoPE Emeddings : Half size for RoPE components
-        self.rotary_emb = DeepseekRotaryEmbedding(self.head_dim, max_seq_len=seq_len)   #internally it will be applied to head_dim//2
+        self.rotary_emb = DeepseekRotaryEmbedding(self.head_dim//2)   #internally it will be applied to head_dim//2
         # Query, Key, Value projections
         # self.q_proj = nn.Linear(hidden_size, self.head_dim * num_attention_heads, bias=False)
         # self.k_proj = nn.Linear(hidden_size, self.head_dim * num_key_value_heads, bias=False)
@@ -215,14 +197,19 @@ class MultiHeadLatentAttention(nn.Module):
         q_proj_2 = q_proj_2.view(batch, seq_len, self.num_attention_heads, self.head_dim // 2)
         q_rope_2 = q_rope_2.view(batch, seq_len, self.num_attention_heads, self.head_dim // 2)
 
+        # Transpose to (batch, num_heads, seq_len, head_dim//2) for rotary application.
+        k_rope_2 = k_rope_2.transpose(1, 2)
+        q_rope_2 = q_rope_2.transpose(1, 2)
+
         # Apply RoPE to KQ
-        cos, sin = self.rotary_emb(position_ids)  # Shape: [batch, seq_len, head_dim/2]
-        cos = cos[:, :, None, :]  # Match multi-head shape
-        sin = sin[:, :, None, :]
+
+        # Generate rotary embeddings. This returns a tensor of shape (1, 1, seq_len, head_dim//2).
+        rotary_emb_out = self.rotary_emb(seq_len, hidden_states.device)
 
         #print(cos.shape, sin.shape)
 
-        q_rope_2, k_rope_2 = self.rotary_emb.apply_rotary_pos_emb(q_rope_2, k_rope_2, cos, sin)
+        q_rope_2 = self.rotary_emb.apply_rotary_emb(q_rope_2, rotary_emb_out)
+        k_rope_2 = self.rotary_emb.apply_rotary_emb(k_rope_2, rotary_emb_out)
 
         k = torch.cat([k_proj_2, k_rope_2], dim=-1)
         q = torch.cat([q_proj_2, q_rope_2], dim=-1)
