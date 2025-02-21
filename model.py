@@ -211,6 +211,10 @@ class MultiHeadLatentAttention(nn.Module):
         q_rope_2 = self.rotary_emb.apply_rotary_emb(q_rope_2, rotary_emb_out)
         k_rope_2 = self.rotary_emb.apply_rotary_emb(k_rope_2, rotary_emb_out)
 
+        # Transpose back to (batch, seq_len, num_heads, head_dim//2)
+        k_rope_2 = k_rope_2.transpose(1, 2)
+        q_rope_2 = q_rope_2.transpose(1, 2)
+
         k = torch.cat([k_proj_2, k_rope_2], dim=-1)
         q = torch.cat([q_proj_2, q_rope_2], dim=-1)
         v = v_proj.view(batch, seq_len, self.num_attention_heads, self.head_dim)
