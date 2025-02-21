@@ -1,5 +1,7 @@
 # training.py
 import os
+
+import time
 import torch
 from transformers import AutoTokenizer
 from torch.utils.data import IterableDataset
@@ -100,6 +102,11 @@ def train(config):
     ## Speed up with malmul
     torch.set_float32_matmul_precision('high')
 
+    config['model']['model_config']['sequence_length'] = 512
+    config['tokens']['batch_size'] = 8
+    config['optimizer']['learning_rate_scheduler']['learning_rate'] = 2e-4 / (
+                config['tokens']['batch_size'] / 256) ** 0.5
+
     # Load model and tokenizer
     model = CustomDeepSeekV3(config['model']['model_config'])
 
@@ -155,19 +162,24 @@ def train(config):
     # Load checkpoint if available
     resume_checkpoint_path = config['checkpoints']['resume_checkpoint_path']
     start_step = 0
+    resume_step = -1
     if resume_checkpoint_path and os.path.exists(resume_checkpoint_path):
-        start_step, loss = load_checkpoint(resume_checkpoint_path, model, optimizer)
+        resume_step, loss = load_checkpoint(resume_checkpoint_path, model, optimizer)
 
     max_steps = config['tokens']['train_steps']
     sample_prompt = "United States of America and India both have one common shared principal and that is"
 
     for step, batch in enumerate(train_dataloader, start=start_step):
+        t0 = time.time()
         if step >= max_steps:
             print("Reached maximum training steps.")
             save_checkpoint(config, model, optimizer, None, step, loss)
             generated_text = generate_tokens(model, tokenizer, sample_prompt, max_length=50, device=device)
             print(f"Validation: (Step {step}), Generated text: {generated_text}")
             break
+
+        if step <= resume_step:
+            continue
 
         batch = batch.to(device)
         optimizer.zero_grad()
@@ -194,9 +206,13 @@ def train(config):
 
         update_routing_bias(model, batch)
 
+        t1 = time.time()
+        dt = (t1 - t0) * 1000
 
         if step % config['logging']['iteration_step_info_interval'] == 0:
-            print(f"Step {step}, Loss: {loss.item()}")
+            ##print(f"Step {step}, Loss: {loss.item()}")
+            tokens_per_sec = (config['tokens']['batch_size'] * config['model']['model_config']['sequence_length']) / (t1 - t0)
+            print(f'step{step} | loss: {loss.item()} | dt: {dt:.2f}ms | tok/sec: {tokens_per_sec: .2f}')
 
         if step % config['checkpoints']['checkpoint_interval'] == 0:
             #checkpoint_path = os.path.join(config['checkpoints']['checkpoints_path'], f"checkpoint_{step}.pth")
