@@ -8,6 +8,7 @@ from dataset import DataLoaderLite
 from datasets import load_dataset
 from model import CustomDeepSeekV3
 from torchinfo import summary
+from utils import generate_text
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
@@ -224,7 +225,7 @@ def train(config):
             save_checkpoint(config, model, optimizer, None, step, loss)
 
         if step % config['tokens']['val_check_interval'] == 0:
-            generated_text = generate_tokens(model, tokenizer, sample_prompt, max_length=50, device=device)
+            generated_text = generate_text(model, tokenizer, sample_prompt)
             print(f"Validation: (Step {step}), Generated text: {generated_text}")
 
     print("Training complete.")

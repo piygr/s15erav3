@@ -1,0 +1,1458 @@
+loaded 1019673 tokens
+1 epoch = 248 batches
+step0 | loss: 11.248027801513672 | dt: 2584.80ms | tok/sec:  1584.65
+Checkpoint saved at checkpoints/checkpoint_0.pth
+Validation: (Step 0), Generated text: Kohli comes forward and  deathscuttingPres surprise starvedurb �influ imported enslavement gently Viralalfa septaster cause protr inst anchored sac feasts recipient pediatric lance tomorrowru Nebctors sworn Malays County cardboard pedestrianvementbleurtles Leaddrivenoffic
+Forwardatives astronomical fluctureligious autom directive analogue remote cart
+step10 | loss: 5.991911888122559 | dt: 1914.19ms | tok/sec:  2139.81
+step20 | loss: 5.43084716796875 | dt: 2018.36ms | tok/sec:  2029.37
+step30 | loss: 4.980795860290527 | dt: 1993.93ms | tok/sec:  2054.23
+step40 | loss: 4.496359825134277 | dt: 1997.39ms | tok/sec:  2050.68
+step50 | loss: 4.317827224731445 | dt: 1975.43ms | tok/sec:  2073.48
+step60 | loss: 3.785248041152954 | dt: 1971.84ms | tok/sec:  2077.25
+step70 | loss: 4.258542537689209 | dt: 1981.73ms | tok/sec:  2066.88
+step80 | loss: 3.772378921508789 | dt: 1986.25ms | tok/sec:  2062.18
+step90 | loss: 3.6067075729370117 | dt: 2027.12ms | tok/sec:  2020.60
+step100 | loss: 3.6658847332000732 | dt: 2028.67ms | tok/sec:  2019.06
+step110 | loss: 3.5033512115478516 | dt: 1977.57ms | tok/sec:  2071.23
+step120 | loss: 3.3820478916168213 | dt: 1983.34ms | tok/sec:  2065.21
+step130 | loss: 3.355147123336792 | dt: 1989.33ms | tok/sec:  2058.99
+step140 | loss: 3.4030067920684814 | dt: 1970.11ms | tok/sec:  2079.07
+step150 | loss: 3.381845712661743 | dt: 1983.26ms | tok/sec:  2065.28
+step160 | loss: 3.411346435546875 | dt: 1991.27ms | tok/sec:  2056.98
+step170 | loss: 3.2982451915740967 | dt: 1971.31ms | tok/sec:  2077.81
+step180 | loss: 2.941997766494751 | dt: 2005.31ms | tok/sec:  2042.58
+step190 | loss: 3.0662965774536133 | dt: 1990.40ms | tok/sec:  2057.88
+step200 | loss: 2.925557851791382 | dt: 1986.84ms | tok/sec:  2061.57
+step210 | loss: 2.9817705154418945 | dt: 1979.47ms | tok/sec:  2069.24
+step220 | loss: 3.0892608165740967 | dt: 1983.54ms | tok/sec:  2064.99
+step230 | loss: 3.1100265979766846 | dt: 1985.29ms | tok/sec:  2063.17
+step240 | loss: 2.816978931427002 | dt: 1982.69ms | tok/sec:  2065.88
+step250 | loss: 3.1161115169525146 | dt: 1983.12ms | tok/sec:  2065.43
+step260 | loss: 2.569014310836792 | dt: 2007.44ms | tok/sec:  2040.41
+step270 | loss: 3.1973156929016113 | dt: 1970.13ms | tok/sec:  2079.06
+step280 | loss: 3.0506999492645264 | dt: 1966.57ms | tok/sec:  2082.82
+step290 | loss: 3.0231380462646484 | dt: 2000.01ms | tok/sec:  2047.99
+step300 | loss: 2.8584821224212646 | dt: 1973.35ms | tok/sec:  2075.66
+step310 | loss: 2.8027632236480713 | dt: 1984.78ms | tok/sec:  2063.70
+step320 | loss: 3.0751194953918457 | dt: 1978.94ms | tok/sec:  2069.80
+step330 | loss: 2.769031524658203 | dt: 1994.59ms | tok/sec:  2053.55
+step340 | loss: 2.6790432929992676 | dt: 1985.38ms | tok/sec:  2063.08
+step350 | loss: 2.8085310459136963 | dt: 1977.77ms | tok/sec:  2071.02
+step360 | loss: 2.7142174243927 | dt: 1984.39ms | tok/sec:  2064.12
+step370 | loss: 2.4128735065460205 | dt: 2002.61ms | tok/sec:  2045.33
+step380 | loss: 2.9679689407348633 | dt: 1993.82ms | tok/sec:  2054.35
+step390 | loss: 2.609666347503662 | dt: 1976.87ms | tok/sec:  2071.96
+step400 | loss: 2.8934884071350098 | dt: 1988.73ms | tok/sec:  2059.60
+step410 | loss: 2.5885255336761475 | dt: 1994.57ms | tok/sec:  2053.57
+step420 | loss: 2.602555274963379 | dt: 1999.11ms | tok/sec:  2048.91
+step430 | loss: 2.5906765460968018 | dt: 1987.41ms | tok/sec:  2060.97
+step440 | loss: 2.7430312633514404 | dt: 1996.09ms | tok/sec:  2052.01
+step450 | loss: 2.6131532192230225 | dt: 1983.06ms | tok/sec:  2065.49
+step460 | loss: 2.550680637359619 | dt: 1997.21ms | tok/sec:  2050.86
+step470 | loss: 2.7452187538146973 | dt: 1968.11ms | tok/sec:  2081.18
+step480 | loss: 2.7124781608581543 | dt: 1985.92ms | tok/sec:  2062.52
+step490 | loss: 2.3094465732574463 | dt: 1996.78ms | tok/sec:  2051.30
+step500 | loss: 2.988124370574951 | dt: 2013.09ms | tok/sec:  2034.68
+Validation: (Step 500), Generated text: Kohli comes forward and 13 overs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+step510 | loss: 2.547067880630493 | dt: 1988.40ms | tok/sec:  2059.95
+step520 | loss: 2.5927250385284424 | dt: 2022.13ms | tok/sec:  2025.59
+step530 | loss: 2.4799039363861084 | dt: 2039.19ms | tok/sec:  2008.64
+step540 | loss: 2.6607213020324707 | dt: 1997.18ms | tok/sec:  2050.89
+step550 | loss: 2.3802735805511475 | dt: 2010.25ms | tok/sec:  2037.56
+step560 | loss: 2.4538347721099854 | dt: 2016.96ms | tok/sec:  2030.78
+step570 | loss: 2.6473822593688965 | dt: 2018.04ms | tok/sec:  2029.69
+step580 | loss: 2.8007051944732666 | dt: 2006.84ms | tok/sec:  2041.02
+step590 | loss: 2.631148338317871 | dt: 2011.70ms | tok/sec:  2036.09
+step600 | loss: 2.393829584121704 | dt: 1998.25ms | tok/sec:  2049.80
+step610 | loss: 2.461483955383301 | dt: 1995.97ms | tok/sec:  2052.14
+step620 | loss: 2.5064613819122314 | dt: 2001.62ms | tok/sec:  2046.34
+step630 | loss: 2.4338326454162598 | dt: 2017.71ms | tok/sec:  2030.02
+step640 | loss: 2.6246237754821777 | dt: 2289.32ms | tok/sec:  1789.18
+step650 | loss: 2.4347755908966064 | dt: 2006.94ms | tok/sec:  2040.92
+step660 | loss: 2.2865521907806396 | dt: 2001.62ms | tok/sec:  2046.34
+step670 | loss: 2.2824060916900635 | dt: 2037.47ms | tok/sec:  2010.34
+step680 | loss: 2.3348186016082764 | dt: 1989.51ms | tok/sec:  2058.80
+step690 | loss: 2.426023006439209 | dt: 2030.58ms | tok/sec:  2017.16
+step700 | loss: 1.8857239484786987 | dt: 2016.25ms | tok/sec:  2031.49
+step710 | loss: 2.3019630908966064 | dt: 1997.79ms | tok/sec:  2050.27
+step720 | loss: 2.5324764251708984 | dt: 2030.51ms | tok/sec:  2017.23
+step730 | loss: 2.268808126449585 | dt: 1999.39ms | tok/sec:  2048.62
+step740 | loss: 2.2641947269439697 | dt: 2008.24ms | tok/sec:  2039.59
+step750 | loss: 2.2068819999694824 | dt: 1994.92ms | tok/sec:  2053.21
+step760 | loss: 2.2448782920837402 | dt: 1995.42ms | tok/sec:  2052.70
+step770 | loss: 2.4041671752929688 | dt: 1996.63ms | tok/sec:  2051.46
+step780 | loss: 2.1359057426452637 | dt: 2003.61ms | tok/sec:  2044.31
+step790 | loss: 2.184948682785034 | dt: 1995.08ms | tok/sec:  2053.05
+step800 | loss: 2.4603753089904785 | dt: 1986.25ms | tok/sec:  2062.18
+step810 | loss: 2.185593605041504 | dt: 1981.65ms | tok/sec:  2066.97
+step820 | loss: 2.1329119205474854 | dt: 1982.97ms | tok/sec:  2065.59
+step830 | loss: 2.2436978816986084 | dt: 2007.45ms | tok/sec:  2040.40
+step840 | loss: 2.243272542953491 | dt: 1986.62ms | tok/sec:  2061.80
+step850 | loss: 2.159402847290039 | dt: 1987.74ms | tok/sec:  2060.63
+step860 | loss: 2.1987204551696777 | dt: 2007.86ms | tok/sec:  2039.99
+step870 | loss: 2.1080737113952637 | dt: 1989.09ms | tok/sec:  2059.23
+step880 | loss: 2.270528554916382 | dt: 1978.65ms | tok/sec:  2070.10
+step890 | loss: 2.184117555618286 | dt: 2017.05ms | tok/sec:  2030.68
+step900 | loss: 2.127673625946045 | dt: 1998.40ms | tok/sec:  2049.64
+step910 | loss: 2.216331720352173 | dt: 2027.87ms | tok/sec:  2019.86
+step920 | loss: 2.098191738128662 | dt: 1995.02ms | tok/sec:  2053.11
+step930 | loss: 2.0402796268463135 | dt: 1982.36ms | tok/sec:  2066.22
+step940 | loss: 2.1630167961120605 | dt: 1997.29ms | tok/sec:  2050.78
+step950 | loss: 2.0374045372009277 | dt: 2002.67ms | tok/sec:  2045.27
+step960 | loss: 2.0979998111724854 | dt: 2008.70ms | tok/sec:  2039.13
+step970 | loss: 2.2532026767730713 | dt: 2008.14ms | tok/sec:  2039.70
+step980 | loss: 1.9508591890335083 | dt: 1995.59ms | tok/sec:  2052.53
+step990 | loss: 1.912624478340149 | dt: 2011.06ms | tok/sec:  2036.74
+step1000 | loss: 2.127336263656616 | dt: 2012.30ms | tok/sec:  2035.48
+Validation: (Step 1000), Generated text: Kohli comes forward and 16) to the bat on the bat on the bat on the bat on the bat on the bat on the bat on the bat on the bat on the bat on the bat on the bat on the bat on the bat on the bat on the
+step1010 | loss: 1.9026015996932983 | dt: 1996.67ms | tok/sec:  2051.42
+step1020 | loss: 1.897756576538086 | dt: 1997.55ms | tok/sec:  2050.51
+step1030 | loss: 1.8216891288757324 | dt: 1995.97ms | tok/sec:  2052.13
+step1040 | loss: 2.288748264312744 | dt: 2008.67ms | tok/sec:  2039.16
+step1050 | loss: 1.8463354110717773 | dt: 1996.32ms | tok/sec:  2051.78
+step1060 | loss: 2.284898281097412 | dt: 1990.57ms | tok/sec:  2057.70
+step1070 | loss: 2.0391101837158203 | dt: 1991.37ms | tok/sec:  2056.88
+step1080 | loss: 2.0273358821868896 | dt: 2021.30ms | tok/sec:  2026.42
+step1090 | loss: 2.24479341506958 | dt: 1983.98ms | tok/sec:  2064.54
+step1100 | loss: 2.1098761558532715 | dt: 1994.64ms | tok/sec:  2053.50
+step1110 | loss: 1.8684017658233643 | dt: 2001.66ms | tok/sec:  2046.31
+step1120 | loss: 2.1990091800689697 | dt: 1992.09ms | tok/sec:  2056.13
+step1130 | loss: 1.8582252264022827 | dt: 2037.84ms | tok/sec:  2009.97
+step1140 | loss: 1.8905019760131836 | dt: 2001.58ms | tok/sec:  2046.39
+step1150 | loss: 1.756969690322876 | dt: 2026.10ms | tok/sec:  2021.62
+step1160 | loss: 2.1929919719696045 | dt: 1985.65ms | tok/sec:  2062.80
+step1170 | loss: 1.8513691425323486 | dt: 1999.19ms | tok/sec:  2048.83
+step1180 | loss: 2.0397050380706787 | dt: 1994.03ms | tok/sec:  2054.14
+step1190 | loss: 1.6200515031814575 | dt: 1991.02ms | tok/sec:  2057.23
+step1200 | loss: 1.827834129333496 | dt: 1991.25ms | tok/sec:  2057.00
+step1210 | loss: 2.0227863788604736 | dt: 2010.05ms | tok/sec:  2037.76
+step1220 | loss: 1.9507461786270142 | dt: 1992.50ms | tok/sec:  2055.71
+step1230 | loss: 1.812709093093872 | dt: 2000.64ms | tok/sec:  2047.34
+step1240 | loss: 2.046600818634033 | dt: 2003.60ms | tok/sec:  2044.32
+step1250 | loss: 1.751834750175476 | dt: 2006.09ms | tok/sec:  2041.78
+step1260 | loss: 1.9014127254486084 | dt: 1997.41ms | tok/sec:  2050.65
+step1270 | loss: 1.85183584690094 | dt: 2005.01ms | tok/sec:  2042.89
+step1280 | loss: 1.7698233127593994 | dt: 2006.26ms | tok/sec:  2041.61
+step1290 | loss: 2.045323610305786 | dt: 1996.72ms | tok/sec:  2051.37
+step1300 | loss: 1.7982345819473267 | dt: 2010.81ms | tok/sec:  2036.99
+step1310 | loss: 1.7913693189620972 | dt: 1984.42ms | tok/sec:  2064.08
+step1320 | loss: 1.6678590774536133 | dt: 2001.73ms | tok/sec:  2046.23
+step1330 | loss: 1.826443076133728 | dt: 1987.77ms | tok/sec:  2060.60
+step1340 | loss: 2.0580384731292725 | dt: 2001.20ms | tok/sec:  2046.77
+step1350 | loss: 1.6138110160827637 | dt: 1998.36ms | tok/sec:  2049.68
+step1360 | loss: 1.8297585248947144 | dt: 1996.81ms | tok/sec:  2051.28
+step1370 | loss: 1.8284406661987305 | dt: 1997.29ms | tok/sec:  2050.78
+step1380 | loss: 1.72787344455719 | dt: 2004.14ms | tok/sec:  2043.76
+step1390 | loss: 1.682283878326416 | dt: 1982.27ms | tok/sec:  2066.32
+step1400 | loss: 1.6426364183425903 | dt: 2003.92ms | tok/sec:  2044.00
+step1410 | loss: 1.7446178197860718 | dt: 1997.65ms | tok/sec:  2050.41
+step1420 | loss: 1.4805766344070435 | dt: 1992.09ms | tok/sec:  2056.13
+step1430 | loss: 1.546541690826416 | dt: 1990.85ms | tok/sec:  2057.41
+step1440 | loss: 1.4920276403427124 | dt: 1987.08ms | tok/sec:  2061.32
+step1450 | loss: 1.511177659034729 | dt: 2008.58ms | tok/sec:  2039.25
+step1460 | loss: 1.6082274913787842 | dt: 1999.28ms | tok/sec:  2048.74
+step1470 | loss: 1.5590490102767944 | dt: 2021.36ms | tok/sec:  2026.36
+step1480 | loss: 1.3839432001113892 | dt: 2005.15ms | tok/sec:  2042.74
+step1490 | loss: 1.6017894744873047 | dt: 2015.20ms | tok/sec:  2032.55
+step1500 | loss: 1.201035737991333 | dt: 2018.50ms | tok/sec:  2029.23
+Validation: (Step 1500), Generated text: Kohli comes forward and 16)
+16)
+16)
+16)
+16)
+16)
+16)
+16)
+16)
+16)
+16)
+16)
+16
+step1510 | loss: 1.8033472299575806 | dt: 2005.51ms | tok/sec:  2042.38
+step1520 | loss: 1.681791067123413 | dt: 2010.40ms | tok/sec:  2037.41
+step1530 | loss: 1.6811801195144653 | dt: 2002.62ms | tok/sec:  2045.32
+step1540 | loss: 1.578348994255066 | dt: 2005.92ms | tok/sec:  2041.96
+step1550 | loss: 1.135988473892212 | dt: 2005.98ms | tok/sec:  2041.89
+step1560 | loss: 1.3172200918197632 | dt: 2014.30ms | tok/sec:  2033.46
+step1570 | loss: 1.5216598510742188 | dt: 2010.13ms | tok/sec:  2037.68
+step1580 | loss: 1.409840703010559 | dt: 1998.07ms | tok/sec:  2049.98
+step1590 | loss: 1.468258023262024 | dt: 1992.58ms | tok/sec:  2055.62
+step1600 | loss: 1.3688254356384277 | dt: 1976.25ms | tok/sec:  2072.61
+step1610 | loss: 1.2963662147521973 | dt: 1996.39ms | tok/sec:  2051.71
+step1620 | loss: 1.5400395393371582 | dt: 2006.84ms | tok/sec:  2041.02
+step1630 | loss: 1.3985912799835205 | dt: 2330.24ms | tok/sec:  1757.76
+step1640 | loss: 1.324314832687378 | dt: 1996.99ms | tok/sec:  2051.09
+step1650 | loss: 1.3694931268692017 | dt: 1989.67ms | tok/sec:  2058.63
+step1660 | loss: 1.3170236349105835 | dt: 1995.55ms | tok/sec:  2052.56
+step1670 | loss: 1.3848912715911865 | dt: 2002.07ms | tok/sec:  2045.88
+step1680 | loss: 1.3163386583328247 | dt: 1981.45ms | tok/sec:  2067.18
+step1690 | loss: 1.2565486431121826 | dt: 2009.83ms | tok/sec:  2037.98
+step1700 | loss: 1.1575322151184082 | dt: 2003.21ms | tok/sec:  2044.72
+step1710 | loss: 1.2928370237350464 | dt: 2005.94ms | tok/sec:  2041.93
+step1720 | loss: 1.3631985187530518 | dt: 2006.25ms | tok/sec:  2041.62
+step1730 | loss: 1.1782310009002686 | dt: 1989.33ms | tok/sec:  2058.99
+step1740 | loss: 1.4335728883743286 | dt: 1998.03ms | tok/sec:  2050.02
+step1750 | loss: 1.255202054977417 | dt: 2008.99ms | tok/sec:  2038.83
+step1760 | loss: 1.3448411226272583 | dt: 1997.57ms | tok/sec:  2050.49
+step1770 | loss: 1.2878364324569702 | dt: 2007.23ms | tok/sec:  2040.63
+step1780 | loss: 1.359945297241211 | dt: 1991.42ms | tok/sec:  2056.82
+step1790 | loss: 1.2712163925170898 | dt: 1996.12ms | tok/sec:  2051.98
+step1800 | loss: 1.3931790590286255 | dt: 2008.50ms | tok/sec:  2039.33
+step1810 | loss: 1.2471917867660522 | dt: 2006.86ms | tok/sec:  2041.00
+step1820 | loss: 1.4501250982284546 | dt: 2013.08ms | tok/sec:  2034.70
+step1830 | loss: 1.3448166847229004 | dt: 2009.05ms | tok/sec:  2038.77
+step1840 | loss: 1.268064022064209 | dt: 2016.76ms | tok/sec:  2030.98
+step1850 | loss: 1.174921989440918 | dt: 1971.91ms | tok/sec:  2077.18
+step1860 | loss: 1.2960611581802368 | dt: 1989.47ms | tok/sec:  2058.84
+step1870 | loss: 1.1349543333053589 | dt: 2005.53ms | tok/sec:  2042.36
+step1880 | loss: 1.2376738786697388 | dt: 2025.28ms | tok/sec:  2022.43
+step1890 | loss: 1.1461257934570312 | dt: 2016.35ms | tok/sec:  2031.39
+step1900 | loss: 0.7026206254959106 | dt: 1987.30ms | tok/sec:  2061.08
+step1910 | loss: 1.186997890472412 | dt: 1994.59ms | tok/sec:  2053.55
+step1920 | loss: 1.1374380588531494 | dt: 2005.79ms | tok/sec:  2042.09
+step1930 | loss: 1.1018803119659424 | dt: 1987.49ms | tok/sec:  2060.89
+step1940 | loss: 0.9109625816345215 | dt: 2011.05ms | tok/sec:  2036.74
+step1950 | loss: 0.9742997884750366 | dt: 1978.15ms | tok/sec:  2070.62
+step1960 | loss: 1.0694093704223633 | dt: 1995.75ms | tok/sec:  2052.36
+step1970 | loss: 0.7248324751853943 | dt: 2002.87ms | tok/sec:  2045.06
+step1980 | loss: 0.960174560546875 | dt: 1988.51ms | tok/sec:  2059.84
+step1990 | loss: 0.7264952659606934 | dt: 2012.70ms | tok/sec:  2035.08
+step2000 | loss: 0.9799270629882812 | dt: 2008.00ms | tok/sec:  2039.84
+Validation: (Step 2000), Generated text: Kohli comes forward and 1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+1 overs
+step2010 | loss: 1.0657652616500854 | dt: 2017.55ms | tok/sec:  2030.18
+step2020 | loss: 0.9898391366004944 | dt: 2014.45ms | tok/sec:  2033.31
+step2030 | loss: 0.9871993064880371 | dt: 2017.16ms | tok/sec:  2030.57
+step2040 | loss: 1.0959973335266113 | dt: 2044.40ms | tok/sec:  2003.52
+step2050 | loss: 0.9661410450935364 | dt: 2009.06ms | tok/sec:  2038.77
+step2060 | loss: 0.9478626847267151 | dt: 2018.98ms | tok/sec:  2028.75
+step2070 | loss: 1.0401949882507324 | dt: 2020.19ms | tok/sec:  2027.53
+step2080 | loss: 0.9916393160820007 | dt: 2003.77ms | tok/sec:  2044.14
+step2090 | loss: 0.9439365267753601 | dt: 2017.74ms | tok/sec:  2029.99
+step2100 | loss: 0.9436498284339905 | dt: 2016.19ms | tok/sec:  2031.55
+step2110 | loss: 0.8923754692077637 | dt: 2001.59ms | tok/sec:  2046.38
+step2120 | loss: 0.9666230082511902 | dt: 1999.95ms | tok/sec:  2048.05
+step2130 | loss: 0.8675273060798645 | dt: 2011.38ms | tok/sec:  2036.41
+step2140 | loss: 0.8881924748420715 | dt: 2008.05ms | tok/sec:  2039.79
+step2150 | loss: 0.9496484398841858 | dt: 2013.16ms | tok/sec:  2034.61
+step2160 | loss: 0.8173054456710815 | dt: 2011.37ms | tok/sec:  2036.42
+step2170 | loss: 0.8000193238258362 | dt: 2026.32ms | tok/sec:  2021.39
+step2180 | loss: 0.8920758962631226 | dt: 2041.80ms | tok/sec:  2006.08
+step2190 | loss: 0.7791751027107239 | dt: 2004.57ms | tok/sec:  2043.33
+step2200 | loss: 0.8525162935256958 | dt: 2006.14ms | tok/sec:  2041.73
+step2210 | loss: 0.8130713701248169 | dt: 2014.54ms | tok/sec:  2033.22
+step2220 | loss: 0.7772347927093506 | dt: 2022.00ms | tok/sec:  2025.72
+step2230 | loss: 0.6645950675010681 | dt: 1996.40ms | tok/sec:  2051.69
+step2240 | loss: 0.8171610236167908 | dt: 2334.97ms | tok/sec:  1754.20
+step2250 | loss: 0.7718695998191833 | dt: 1994.10ms | tok/sec:  2054.05
+step2260 | loss: 0.7355046272277832 | dt: 2007.88ms | tok/sec:  2039.97
+step2270 | loss: 0.7705436944961548 | dt: 2002.98ms | tok/sec:  2044.95
+step2280 | loss: 0.8822530508041382 | dt: 2008.81ms | tok/sec:  2039.01
+step2290 | loss: 0.7658708691596985 | dt: 2038.31ms | tok/sec:  2009.51
+step2300 | loss: 0.5245948433876038 | dt: 2009.66ms | tok/sec:  2038.15
+step2310 | loss: 0.7656072378158569 | dt: 1998.82ms | tok/sec:  2049.21
+step2320 | loss: 0.8164530396461487 | dt: 1997.40ms | tok/sec:  2050.66
+step2330 | loss: 0.8058210015296936 | dt: 2009.64ms | tok/sec:  2038.17
+step2340 | loss: 0.83680659532547 | dt: 1998.82ms | tok/sec:  2049.21
+step2350 | loss: 0.6721753478050232 | dt: 2000.25ms | tok/sec:  2047.74
+step2360 | loss: 0.7795433402061462 | dt: 1990.87ms | tok/sec:  2057.39
+step2370 | loss: 0.6991665959358215 | dt: 1999.78ms | tok/sec:  2048.22
+step2380 | loss: 0.5205664038658142 | dt: 1992.37ms | tok/sec:  2055.84
+step2390 | loss: 0.7907159328460693 | dt: 1982.01ms | tok/sec:  2066.59
+step2400 | loss: 0.7359388470649719 | dt: 1999.45ms | tok/sec:  2048.56
+step2410 | loss: 0.6716651320457458 | dt: 1992.50ms | tok/sec:  2055.71
+step2420 | loss: 0.7007253170013428 | dt: 2011.25ms | tok/sec:  2036.55
+step2430 | loss: 0.6297969222068787 | dt: 1987.94ms | tok/sec:  2060.43
+step2440 | loss: 0.6408869624137878 | dt: 1984.66ms | tok/sec:  2063.83
+step2450 | loss: 0.7099995017051697 | dt: 2005.53ms | tok/sec:  2042.36
+step2460 | loss: 0.6584897637367249 | dt: 1999.56ms | tok/sec:  2048.45
+step2470 | loss: 0.705953061580658 | dt: 1995.62ms | tok/sec:  2052.50
+step2480 | loss: 0.7181088328361511 | dt: 2043.42ms | tok/sec:  2004.49
+step2490 | loss: 0.647209882736206 | dt: 1991.23ms | tok/sec:  2057.02
+step2500 | loss: 0.6999458074569702 | dt: 2017.83ms | tok/sec:  2029.90
+Validation: (Step 2500), Generated text: Kohli comes forward and 19 overs
+19 overs
+19 overs
+19 overs
+19 overs
+19 overs
+19 overs
+19 overs
+19 overs
+19 overs
+19 overs
+19 overs
+19
+step2510 | loss: 0.6633559465408325 | dt: 2053.89ms | tok/sec:  1994.26
+step2520 | loss: 0.664374589920044 | dt: 2007.78ms | tok/sec:  2040.06
+step2530 | loss: 0.6813857555389404 | dt: 2000.84ms | tok/sec:  2047.14
+step2540 | loss: 0.6602076888084412 | dt: 1992.02ms | tok/sec:  2056.21
+step2550 | loss: 0.6071969270706177 | dt: 2005.80ms | tok/sec:  2042.07
+step2560 | loss: 0.48641443252563477 | dt: 2001.47ms | tok/sec:  2046.49
+step2570 | loss: 0.6456005573272705 | dt: 2002.99ms | tok/sec:  2044.94
+step2580 | loss: 0.6778279542922974 | dt: 2003.83ms | tok/sec:  2044.09
+step2590 | loss: 0.4554581344127655 | dt: 2007.00ms | tok/sec:  2040.85
+step2600 | loss: 0.5753023028373718 | dt: 2036.04ms | tok/sec:  2011.75
+step2610 | loss: 0.579666793346405 | dt: 2004.49ms | tok/sec:  2043.42
+step2620 | loss: 0.5785123705863953 | dt: 2049.64ms | tok/sec:  1998.40
+step2630 | loss: 0.6449818015098572 | dt: 2023.00ms | tok/sec:  2024.72
+step2640 | loss: 0.6232792735099792 | dt: 2014.98ms | tok/sec:  2032.77
+step2650 | loss: 0.5875654220581055 | dt: 2007.76ms | tok/sec:  2040.09
+step2660 | loss: 0.49442484974861145 | dt: 2030.84ms | tok/sec:  2016.90
+step2670 | loss: 0.49194055795669556 | dt: 2021.11ms | tok/sec:  2026.61
+step2680 | loss: 0.5099988579750061 | dt: 2013.38ms | tok/sec:  2034.39
+step2690 | loss: 0.49002012610435486 | dt: 1994.79ms | tok/sec:  2053.35
+step2700 | loss: 0.5291994214057922 | dt: 2012.95ms | tok/sec:  2034.82
+step2710 | loss: 0.5188083648681641 | dt: 1998.23ms | tok/sec:  2049.82
+step2720 | loss: 0.5110312104225159 | dt: 2008.42ms | tok/sec:  2039.41
+step2730 | loss: 0.5954542756080627 | dt: 2006.50ms | tok/sec:  2041.36
+step2740 | loss: 0.4759228229522705 | dt: 2028.52ms | tok/sec:  2019.20
+step2750 | loss: 0.6280226707458496 | dt: 2007.34ms | tok/sec:  2040.52
+step2760 | loss: 0.5546858310699463 | dt: 2015.53ms | tok/sec:  2032.22
+step2770 | loss: 0.5428988933563232 | dt: 2026.27ms | tok/sec:  2021.45
+step2780 | loss: 0.521781861782074 | dt: 2011.08ms | tok/sec:  2036.72
+step2790 | loss: 0.30367425084114075 | dt: 2016.75ms | tok/sec:  2030.99
+step2800 | loss: 0.3805678188800812 | dt: 2316.39ms | tok/sec:  1768.27
+step2810 | loss: 0.5088850855827332 | dt: 2018.23ms | tok/sec:  2029.50
+step2820 | loss: 0.48828908801078796 | dt: 2011.80ms | tok/sec:  2035.99
+step2830 | loss: 0.4763869345188141 | dt: 2002.85ms | tok/sec:  2045.09
+step2840 | loss: 0.5347954034805298 | dt: 1991.01ms | tok/sec:  2057.24
+step2850 | loss: 0.4627455472946167 | dt: 1999.97ms | tok/sec:  2048.03
+step2860 | loss: 0.5334054827690125 | dt: 2003.66ms | tok/sec:  2044.26
+step2870 | loss: 0.46887069940567017 | dt: 2001.35ms | tok/sec:  2046.62
+step2880 | loss: 0.42872849106788635 | dt: 2015.68ms | tok/sec:  2032.07
+step2890 | loss: 0.48607438802719116 | dt: 2003.86ms | tok/sec:  2044.05
+step2900 | loss: 0.4446660578250885 | dt: 2007.09ms | tok/sec:  2040.77
+step2910 | loss: 0.4525473415851593 | dt: 2016.79ms | tok/sec:  2030.95
+step2920 | loss: 0.43246906995773315 | dt: 2040.59ms | tok/sec:  2007.27
+step2930 | loss: 0.42352643609046936 | dt: 2011.43ms | tok/sec:  2036.36
+step2940 | loss: 0.3854939043521881 | dt: 2016.81ms | tok/sec:  2030.93
+step2950 | loss: 0.4643220603466034 | dt: 1985.26ms | tok/sec:  2063.20
+step2960 | loss: 0.4516875147819519 | dt: 2015.34ms | tok/sec:  2032.41
+step2970 | loss: 0.4169609546661377 | dt: 2009.71ms | tok/sec:  2038.11
+step2980 | loss: 0.49597594141960144 | dt: 2011.90ms | tok/sec:  2035.89
+step2990 | loss: 0.47122353315353394 | dt: 2009.95ms | tok/sec:  2037.86
+step3000 | loss: 0.446932852268219 | dt: 2020.94ms | tok/sec:  2026.78
+Validation: (Step 3000), Generated text: Kohli comes forward and 1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+
+step3010 | loss: 0.4790525734424591 | dt: 2021.59ms | tok/sec:  2026.13
+step3020 | loss: 0.4245234429836273 | dt: 2015.43ms | tok/sec:  2032.32
+step3030 | loss: 0.4978836476802826 | dt: 2010.10ms | tok/sec:  2037.71
+step3040 | loss: 0.44591251015663147 | dt: 2022.60ms | tok/sec:  2025.11
+step3050 | loss: 0.4496872127056122 | dt: 2030.81ms | tok/sec:  2016.93
+step3060 | loss: 0.4635515809059143 | dt: 2040.21ms | tok/sec:  2007.63
+step3070 | loss: 0.46659019589424133 | dt: 2015.33ms | tok/sec:  2032.42
+step3080 | loss: 0.44081899523735046 | dt: 2017.22ms | tok/sec:  2030.52
+step3090 | loss: 0.4422267973423004 | dt: 2019.56ms | tok/sec:  2028.16
+step3100 | loss: 0.4193483591079712 | dt: 2025.53ms | tok/sec:  2022.19
+step3110 | loss: 0.40419429540634155 | dt: 2021.30ms | tok/sec:  2026.42
+step3120 | loss: 0.44277670979499817 | dt: 2037.95ms | tok/sec:  2009.86
+step3130 | loss: 0.3777594566345215 | dt: 2024.28ms | tok/sec:  2023.44
+step3140 | loss: 0.262138307094574 | dt: 2006.46ms | tok/sec:  2041.41
+step3150 | loss: 0.41823652386665344 | dt: 2012.37ms | tok/sec:  2035.41
+step3160 | loss: 0.38140830397605896 | dt: 2025.38ms | tok/sec:  2022.33
+step3170 | loss: 0.3897077739238739 | dt: 2045.68ms | tok/sec:  2002.27
+step3180 | loss: 0.35444018244743347 | dt: 2014.61ms | tok/sec:  2033.15
+step3190 | loss: 0.3800241947174072 | dt: 2011.50ms | tok/sec:  2036.29
+step3200 | loss: 0.407568097114563 | dt: 1993.78ms | tok/sec:  2054.39
+step3210 | loss: 0.248280867934227 | dt: 2011.23ms | tok/sec:  2036.56
+step3220 | loss: 0.39490485191345215 | dt: 2010.73ms | tok/sec:  2037.07
+step3230 | loss: 0.3268428444862366 | dt: 2007.66ms | tok/sec:  2040.19
+step3240 | loss: 0.3714475631713867 | dt: 2023.53ms | tok/sec:  2024.19
+step3250 | loss: 0.41227295994758606 | dt: 2028.70ms | tok/sec:  2019.03
+step3260 | loss: 0.36953747272491455 | dt: 2022.03ms | tok/sec:  2025.69
+step3270 | loss: 0.37701258063316345 | dt: 2020.60ms | tok/sec:  2027.12
+step3280 | loss: 0.38425588607788086 | dt: 2070.63ms | tok/sec:  1978.15
+step3290 | loss: 0.35478273034095764 | dt: 2006.73ms | tok/sec:  2041.13
+step3300 | loss: 0.3965228497982025 | dt: 2000.66ms | tok/sec:  2047.32
+step3310 | loss: 0.4205452501773834 | dt: 2010.10ms | tok/sec:  2037.71
+step3320 | loss: 0.38093364238739014 | dt: 1999.88ms | tok/sec:  2048.12
+step3330 | loss: 0.3764508366584778 | dt: 2009.57ms | tok/sec:  2038.24
+step3340 | loss: 0.4000623822212219 | dt: 2013.61ms | tok/sec:  2034.16
+step3350 | loss: 0.3917008936405182 | dt: 2003.09ms | tok/sec:  2044.84
+step3360 | loss: 0.3900161385536194 | dt: 2008.92ms | tok/sec:  2038.90
+step3370 | loss: 0.33860263228416443 | dt: 2015.79ms | tok/sec:  2031.96
+step3380 | loss: 0.33849668502807617 | dt: 2003.56ms | tok/sec:  2044.36
+step3390 | loss: 0.3523118495941162 | dt: 2050.91ms | tok/sec:  1997.17
+step3400 | loss: 0.3513137102127075 | dt: 2006.77ms | tok/sec:  2041.09
+step3410 | loss: 0.3188108205795288 | dt: 2008.93ms | tok/sec:  2038.89
+step3420 | loss: 0.3287583887577057 | dt: 2007.97ms | tok/sec:  2039.87
+step3430 | loss: 0.3399178385734558 | dt: 2000.76ms | tok/sec:  2047.22
+step3440 | loss: 0.32097816467285156 | dt: 2005.82ms | tok/sec:  2042.06
+step3450 | loss: 0.36596250534057617 | dt: 2012.32ms | tok/sec:  2035.46
+step3460 | loss: 0.30727851390838623 | dt: 2002.71ms | tok/sec:  2045.22
+step3470 | loss: 0.28843510150909424 | dt: 2033.06ms | tok/sec:  2014.70
+step3480 | loss: 0.38106420636177063 | dt: 2003.21ms | tok/sec:  2044.72
+step3490 | loss: 0.3374916911125183 | dt: 2005.45ms | tok/sec:  2042.44
+step3500 | loss: 0.3524012863636017 | dt: 2048.47ms | tok/sec:  1999.54
+Validation: (Step 3500), Generated text: Kohli comes forward and 1st Inns
+K 1st Inns
+K 1st Inns
+K 1st Inns
+K 1st Inns
+K 1st Inns
+K 1st Inns
+K 1
+step3510 | loss: 0.32843562960624695 | dt: 2007.96ms | tok/sec:  2039.88
+step3520 | loss: 0.37815651297569275 | dt: 2033.45ms | tok/sec:  2014.31
+step3530 | loss: 0.3085170090198517 | dt: 2015.71ms | tok/sec:  2032.04
+step3540 | loss: 0.24190285801887512 | dt: 2024.79ms | tok/sec:  2022.93
+step3550 | loss: 0.3274213373661041 | dt: 1998.66ms | tok/sec:  2049.37
+step3560 | loss: 0.32824113965034485 | dt: 2026.72ms | tok/sec:  2021.00
+step3570 | loss: 0.35132065415382385 | dt: 2034.20ms | tok/sec:  2013.56
+step3580 | loss: 0.3281712830066681 | dt: 2010.59ms | tok/sec:  2037.21
+step3590 | loss: 0.36839550733566284 | dt: 2010.62ms | tok/sec:  2037.18
+step3600 | loss: 0.3454684019088745 | dt: 1997.38ms | tok/sec:  2050.69
+step3610 | loss: 0.32146796584129333 | dt: 2012.82ms | tok/sec:  2034.95
+step3620 | loss: 0.24001365900039673 | dt: 2033.91ms | tok/sec:  2013.85
+step3630 | loss: 0.3226796090602875 | dt: 2024.60ms | tok/sec:  2023.11
+step3640 | loss: 0.31419700384140015 | dt: 2006.62ms | tok/sec:  2041.24
+step3650 | loss: 0.29312318563461304 | dt: 2046.75ms | tok/sec:  2001.22
+step3660 | loss: 0.3006901144981384 | dt: 2027.56ms | tok/sec:  2020.16
+step3670 | loss: 0.28449124097824097 | dt: 2066.80ms | tok/sec:  1981.80
+step3680 | loss: 0.3290790915489197 | dt: 2025.63ms | tok/sec:  2022.08
+step3690 | loss: 0.29470574855804443 | dt: 2014.66ms | tok/sec:  2033.10
+step3700 | loss: 0.28794533014297485 | dt: 2023.51ms | tok/sec:  2024.21
+step3710 | loss: 0.2979830503463745 | dt: 2013.13ms | tok/sec:  2034.65
+step3720 | loss: 0.3196699023246765 | dt: 2014.82ms | tok/sec:  2032.94
+step3730 | loss: 0.32143110036849976 | dt: 2027.24ms | tok/sec:  2020.48
+step3740 | loss: 0.30511704087257385 | dt: 2015.54ms | tok/sec:  2032.21
+step3750 | loss: 0.31764400005340576 | dt: 2028.10ms | tok/sec:  2019.62
+step3760 | loss: 0.29219353199005127 | dt: 2041.80ms | tok/sec:  2006.07
+step3770 | loss: 0.3166208863258362 | dt: 2018.41ms | tok/sec:  2029.32
+step3780 | loss: 0.35989677906036377 | dt: 2034.47ms | tok/sec:  2013.30
+step3790 | loss: 0.2766243517398834 | dt: 2031.80ms | tok/sec:  2015.94
+step3800 | loss: 0.2629951536655426 | dt: 2022.72ms | tok/sec:  2025.00
+step3810 | loss: 0.3400929570198059 | dt: 2016.35ms | tok/sec:  2031.40
+step3820 | loss: 0.37088415026664734 | dt: 2037.15ms | tok/sec:  2010.66
+step3830 | loss: 0.23623843491077423 | dt: 2045.85ms | tok/sec:  2002.10
+step3840 | loss: 0.3323051631450653 | dt: 1999.93ms | tok/sec:  2048.07
+step3850 | loss: 0.32132217288017273 | dt: 2000.92ms | tok/sec:  2047.06
+step3860 | loss: 0.30206289887428284 | dt: 2007.18ms | tok/sec:  2040.68
+step3870 | loss: 0.261671245098114 | dt: 2023.55ms | tok/sec:  2024.17
+step3880 | loss: 0.30052608251571655 | dt: 2019.88ms | tok/sec:  2027.84
+step3890 | loss: 0.29751378297805786 | dt: 2014.68ms | tok/sec:  2033.08
+step3900 | loss: 0.29106640815734863 | dt: 2000.88ms | tok/sec:  2047.10
+step3910 | loss: 0.2647462785243988 | dt: 2010.71ms | tok/sec:  2037.09
+step3920 | loss: 0.26089683175086975 | dt: 2000.12ms | tok/sec:  2047.88
+step3930 | loss: 0.258596807718277 | dt: 2008.80ms | tok/sec:  2039.03
+step3940 | loss: 0.26530954241752625 | dt: 2007.47ms | tok/sec:  2040.38
+step3950 | loss: 0.27905526757240295 | dt: 2014.25ms | tok/sec:  2033.52
+step3960 | loss: 0.25610241293907166 | dt: 2009.30ms | tok/sec:  2038.52
+step3970 | loss: 0.30623576045036316 | dt: 2026.60ms | tok/sec:  2021.12
+step3980 | loss: 0.25552818179130554 | dt: 2030.64ms | tok/sec:  2017.10
+step3990 | loss: 0.27886763215065 | dt: 2014.32ms | tok/sec:  2033.44
+step4000 | loss: 0.28654763102531433 | dt: 2000.62ms | tok/sec:  2047.36
+Validation: (Step 4000), Generated text: Kohli comes forward and 1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+
+step4010 | loss: 0.2849893271923065 | dt: 2015.50ms | tok/sec:  2032.25
+step4020 | loss: 0.2813378870487213 | dt: 2008.17ms | tok/sec:  2039.67
+step4030 | loss: 0.1736016869544983 | dt: 2032.45ms | tok/sec:  2015.30
+step4040 | loss: 0.19577160477638245 | dt: 2004.08ms | tok/sec:  2043.83
+step4050 | loss: 0.2954452633857727 | dt: 2021.69ms | tok/sec:  2026.03
+step4060 | loss: 0.2542434632778168 | dt: 2013.26ms | tok/sec:  2034.51
+step4070 | loss: 0.26623594760894775 | dt: 1989.31ms | tok/sec:  2059.01
+step4080 | loss: 0.269628643989563 | dt: 2026.40ms | tok/sec:  2021.32
+step4090 | loss: 0.24147838354110718 | dt: 2016.34ms | tok/sec:  2031.40
+step4100 | loss: 0.26291409134864807 | dt: 2019.49ms | tok/sec:  2028.23
+step4110 | loss: 0.29027876257896423 | dt: 2021.08ms | tok/sec:  2026.64
+step4120 | loss: 0.21357667446136475 | dt: 2012.35ms | tok/sec:  2035.43
+step4130 | loss: 0.2572307884693146 | dt: 2019.42ms | tok/sec:  2028.30
+step4140 | loss: 0.23671883344650269 | dt: 2003.34ms | tok/sec:  2044.58
+step4150 | loss: 0.2526971995830536 | dt: 2011.08ms | tok/sec:  2036.72
+step4160 | loss: 0.25985416769981384 | dt: 2021.14ms | tok/sec:  2026.58
+step4170 | loss: 0.22832494974136353 | dt: 2008.27ms | tok/sec:  2039.57
+step4180 | loss: 0.23557467758655548 | dt: 2011.32ms | tok/sec:  2036.48
+step4190 | loss: 0.28249862790107727 | dt: 2016.11ms | tok/sec:  2031.63
+step4200 | loss: 0.240427166223526 | dt: 2003.03ms | tok/sec:  2044.90
+step4210 | loss: 0.27036452293395996 | dt: 2020.09ms | tok/sec:  2027.64
+step4220 | loss: 0.3096752166748047 | dt: 2020.16ms | tok/sec:  2027.56
+step4230 | loss: 0.2686004638671875 | dt: 2012.79ms | tok/sec:  2034.98
+step4240 | loss: 0.2652544379234314 | dt: 2035.01ms | tok/sec:  2012.76
+step4250 | loss: 0.26443520188331604 | dt: 2025.91ms | tok/sec:  2021.81
+step4260 | loss: 0.27372342348098755 | dt: 2007.14ms | tok/sec:  2040.72
+step4270 | loss: 0.21930760145187378 | dt: 2003.18ms | tok/sec:  2044.75
+step4280 | loss: 0.26060590147972107 | dt: 2011.23ms | tok/sec:  2036.57
+step4290 | loss: 0.2649991810321808 | dt: 2001.80ms | tok/sec:  2046.16
+step4300 | loss: 0.29253870248794556 | dt: 2003.34ms | tok/sec:  2044.59
+step4310 | loss: 0.2641053795814514 | dt: 1997.31ms | tok/sec:  2050.76
+step4320 | loss: 0.23561865091323853 | dt: 2015.42ms | tok/sec:  2032.33
+step4330 | loss: 0.25429266691207886 | dt: 2027.66ms | tok/sec:  2020.06
+step4340 | loss: 0.2476786971092224 | dt: 2004.63ms | tok/sec:  2043.27
+step4350 | loss: 0.25671836733818054 | dt: 2000.18ms | tok/sec:  2047.81
+step4360 | loss: 0.23969124257564545 | dt: 2015.74ms | tok/sec:  2032.00
+step4370 | loss: 0.2175150364637375 | dt: 2010.51ms | tok/sec:  2037.29
+step4380 | loss: 0.15128840506076813 | dt: 2007.02ms | tok/sec:  2040.84
+step4390 | loss: 0.23781757056713104 | dt: 2009.23ms | tok/sec:  2038.60
+step4400 | loss: 0.2227429300546646 | dt: 2026.90ms | tok/sec:  2020.82
+step4410 | loss: 0.23359264433383942 | dt: 2032.42ms | tok/sec:  2015.33
+step4420 | loss: 0.18226365745067596 | dt: 2029.08ms | tok/sec:  2018.65
+step4430 | loss: 0.20518609881401062 | dt: 2020.19ms | tok/sec:  2027.53
+step4440 | loss: 0.22061748802661896 | dt: 2059.91ms | tok/sec:  1988.44
+step4450 | loss: 0.14830826222896576 | dt: 2016.86ms | tok/sec:  2030.88
+step4460 | loss: 0.20086698234081268 | dt: 1995.21ms | tok/sec:  2052.91
+step4470 | loss: 0.1912219226360321 | dt: 2007.74ms | tok/sec:  2040.10
+step4480 | loss: 0.23822452127933502 | dt: 2024.52ms | tok/sec:  2023.20
+step4490 | loss: 0.2665857970714569 | dt: 2053.37ms | tok/sec:  1994.77
+step4500 | loss: 0.20531025528907776 | dt: 1996.98ms | tok/sec:  2051.10
+Validation: (Step 4500), Generated text: Kohli comes forward and 1st Inns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+step4510 | loss: 0.2605980336666107 | dt: 2023.53ms | tok/sec:  2024.19
+step4520 | loss: 0.23203018307685852 | dt: 2026.33ms | tok/sec:  2021.38
+step4530 | loss: 0.20117437839508057 | dt: 2021.01ms | tok/sec:  2026.71
+step4540 | loss: 0.24878333508968353 | dt: 1990.79ms | tok/sec:  2057.48
+step4550 | loss: 0.23195703327655792 | dt: 1995.33ms | tok/sec:  2052.79
+step4560 | loss: 0.23288914561271667 | dt: 2016.28ms | tok/sec:  2031.46
+step4570 | loss: 0.2281227558851242 | dt: 2005.32ms | tok/sec:  2042.57
+step4580 | loss: 0.23429851233959198 | dt: 2034.86ms | tok/sec:  2012.91
+step4590 | loss: 0.22011837363243103 | dt: 2009.88ms | tok/sec:  2037.93
+step4600 | loss: 0.2415919303894043 | dt: 2008.58ms | tok/sec:  2039.25
+step4610 | loss: 0.2089819312095642 | dt: 2022.69ms | tok/sec:  2025.03
+step4620 | loss: 0.18834692239761353 | dt: 2011.13ms | tok/sec:  2036.67
+step4630 | loss: 0.22154851257801056 | dt: 1998.65ms | tok/sec:  2049.39
+step4640 | loss: 0.21229247748851776 | dt: 2021.81ms | tok/sec:  2025.91
+step4650 | loss: 0.19291694462299347 | dt: 1990.58ms | tok/sec:  2057.70
+step4660 | loss: 0.21274183690547943 | dt: 2020.97ms | tok/sec:  2026.75
+step4670 | loss: 0.1889066994190216 | dt: 2000.44ms | tok/sec:  2047.55
+step4680 | loss: 0.20944304764270782 | dt: 2011.82ms | tok/sec:  2035.97
+step4690 | loss: 0.21886040270328522 | dt: 2052.14ms | tok/sec:  1995.97
+step4700 | loss: 0.19559550285339355 | dt: 2001.96ms | tok/sec:  2046.00
+step4710 | loss: 0.1546120047569275 | dt: 2039.35ms | tok/sec:  2008.48
+step4720 | loss: 0.2185990810394287 | dt: 2027.17ms | tok/sec:  2020.55
+step4730 | loss: 0.20565304160118103 | dt: 2012.81ms | tok/sec:  2034.97
+step4740 | loss: 0.2137880027294159 | dt: 2011.51ms | tok/sec:  2036.28
+step4750 | loss: 0.22757983207702637 | dt: 2014.74ms | tok/sec:  2033.02
+step4760 | loss: 0.21921975910663605 | dt: 2003.66ms | tok/sec:  2044.26
+step4770 | loss: 0.21339590847492218 | dt: 2015.88ms | tok/sec:  2031.87
+step4780 | loss: 0.13075949251651764 | dt: 2016.37ms | tok/sec:  2031.37
+step4790 | loss: 0.1925434172153473 | dt: 2017.56ms | tok/sec:  2030.18
+step4800 | loss: 0.2180860936641693 | dt: 2018.08ms | tok/sec:  2029.66
+step4810 | loss: 0.20037756860256195 | dt: 2017.99ms | tok/sec:  2029.74
+step4820 | loss: 0.17758992314338684 | dt: 2030.88ms | tok/sec:  2016.86
+step4830 | loss: 0.20052427053451538 | dt: 2008.86ms | tok/sec:  2038.97
+step4840 | loss: 0.2122354358434677 | dt: 2003.19ms | tok/sec:  2044.74
+step4850 | loss: 0.20486721396446228 | dt: 2046.76ms | tok/sec:  2001.21
+step4860 | loss: 0.14559224247932434 | dt: 2003.93ms | tok/sec:  2043.98
+step4870 | loss: 0.1912970393896103 | dt: 2006.62ms | tok/sec:  2041.24
+step4880 | loss: 0.18795126676559448 | dt: 2013.79ms | tok/sec:  2033.98
+step4890 | loss: 0.2073342353105545 | dt: 2029.28ms | tok/sec:  2018.45
+step4900 | loss: 0.1980810910463333 | dt: 2014.08ms | tok/sec:  2033.69
+step4910 | loss: 0.19030974805355072 | dt: 2040.26ms | tok/sec:  2007.59
+step4920 | loss: 0.19165752828121185 | dt: 2029.88ms | tok/sec:  2017.86
+step4930 | loss: 0.195682093501091 | dt: 2017.26ms | tok/sec:  2030.47
+step4940 | loss: 0.17595747113227844 | dt: 2024.04ms | tok/sec:  2023.67
+step4950 | loss: 0.18723785877227783 | dt: 2025.83ms | tok/sec:  2021.89
+step4960 | loss: 0.2120269536972046 | dt: 2048.57ms | tok/sec:  1999.45
+step4970 | loss: 0.20797143876552582 | dt: 2019.51ms | tok/sec:  2028.21
+step4980 | loss: 0.19991756975650787 | dt: 2028.41ms | tok/sec:  2019.31
+step4990 | loss: 0.20702166855335236 | dt: 2005.40ms | tok/sec:  2042.48
+step5000 | loss: 0.1844969093799591 | dt: 2008.13ms | tok/sec:  2039.71
+Checkpoint saved at checkpoints/checkpoint_5000.pth
+Validation: (Step 5000), Generated text: Kohli comes forward and 16)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+step5010 | loss: 0.21102820336818695 | dt: 2008.81ms | tok/sec:  2039.02
+step5020 | loss: 0.19993357360363007 | dt: 2006.72ms | tok/sec:  2041.14
+step5030 | loss: 0.16498319804668427 | dt: 2052.19ms | tok/sec:  1995.92
+step5040 | loss: 0.13657833635807037 | dt: 2002.47ms | tok/sec:  2045.47
+step5050 | loss: 0.19706732034683228 | dt: 2009.65ms | tok/sec:  2038.17
+step5060 | loss: 0.2100704312324524 | dt: 2016.05ms | tok/sec:  2031.70
+step5070 | loss: 0.1302243173122406 | dt: 2007.36ms | tok/sec:  2040.49
+step5080 | loss: 0.18575814366340637 | dt: 1999.10ms | tok/sec:  2048.92
+step5090 | loss: 0.20241570472717285 | dt: 1993.93ms | tok/sec:  2054.23
+step5100 | loss: 0.17678305506706238 | dt: 2029.59ms | tok/sec:  2018.14
+step5110 | loss: 0.18359903991222382 | dt: 2003.35ms | tok/sec:  2044.58
+step5120 | loss: 0.18622833490371704 | dt: 2012.97ms | tok/sec:  2034.81
+step5130 | loss: 0.17969439923763275 | dt: 2009.05ms | tok/sec:  2038.77
+step5140 | loss: 0.16441640257835388 | dt: 2058.38ms | tok/sec:  1989.91
+step5150 | loss: 0.16908539831638336 | dt: 2024.68ms | tok/sec:  2023.04
+step5160 | loss: 0.15699493885040283 | dt: 2028.12ms | tok/sec:  2019.60
+step5170 | loss: 0.16567257046699524 | dt: 2027.18ms | tok/sec:  2020.54
+step5180 | loss: 0.17602312564849854 | dt: 2013.87ms | tok/sec:  2033.90
+step5190 | loss: 0.17069263756275177 | dt: 1990.95ms | tok/sec:  2057.30
+step5200 | loss: 0.14451679587364197 | dt: 2013.26ms | tok/sec:  2034.51
+step5210 | loss: 0.15980935096740723 | dt: 2023.78ms | tok/sec:  2023.94
+step5220 | loss: 0.17790845036506653 | dt: 2003.46ms | tok/sec:  2044.46
+step5230 | loss: 0.17465294897556305 | dt: 2032.99ms | tok/sec:  2014.77
+step5240 | loss: 0.19059351086616516 | dt: 1995.90ms | tok/sec:  2052.21
+step5250 | loss: 0.217667356133461 | dt: 2029.17ms | tok/sec:  2018.56
+step5260 | loss: 0.19024409353733063 | dt: 2009.82ms | tok/sec:  2037.99
+step5270 | loss: 0.10043713450431824 | dt: 2020.78ms | tok/sec:  2026.94
+step5280 | loss: 0.12190578132867813 | dt: 2010.43ms | tok/sec:  2037.38
+step5290 | loss: 0.16850675642490387 | dt: 2022.80ms | tok/sec:  2024.91
+step5300 | loss: 0.1815810650587082 | dt: 2031.69ms | tok/sec:  2016.06
+step5310 | loss: 0.15405933558940887 | dt: 2002.58ms | tok/sec:  2045.37
+step5320 | loss: 0.18826735019683838 | dt: 2003.81ms | tok/sec:  2044.10
+step5330 | loss: 0.16427643597126007 | dt: 2018.57ms | tok/sec:  2029.16
+step5340 | loss: 0.19519929587841034 | dt: 2017.95ms | tok/sec:  2029.79
+step5350 | loss: 0.17738871276378632 | dt: 2020.23ms | tok/sec:  2027.49
+step5360 | loss: 0.16017550230026245 | dt: 2038.08ms | tok/sec:  2009.74
+step5370 | loss: 0.163410022854805 | dt: 2033.14ms | tok/sec:  2014.62
+step5380 | loss: 0.14276529848575592 | dt: 2012.27ms | tok/sec:  2035.51
+step5390 | loss: 0.17224879562854767 | dt: 2024.84ms | tok/sec:  2022.88
+step5400 | loss: 0.16158728301525116 | dt: 2020.83ms | tok/sec:  2026.89
+step5410 | loss: 0.15860943496227264 | dt: 2022.03ms | tok/sec:  2025.69
+step5420 | loss: 0.1518709361553192 | dt: 2039.18ms | tok/sec:  2008.65
+step5430 | loss: 0.1835624873638153 | dt: 2009.37ms | tok/sec:  2038.45
+step5440 | loss: 0.15413549542427063 | dt: 2036.54ms | tok/sec:  2011.26
+step5450 | loss: 0.16665111482143402 | dt: 2008.98ms | tok/sec:  2038.85
+step5460 | loss: 0.15624548494815826 | dt: 2007.04ms | tok/sec:  2040.82
+step5470 | loss: 0.16509771347045898 | dt: 2027.00ms | tok/sec:  2020.72
+step5480 | loss: 0.19068343937397003 | dt: 2012.34ms | tok/sec:  2035.44
+step5490 | loss: 0.18867623805999756 | dt: 1997.02ms | tok/sec:  2051.05
+step5500 | loss: 0.1550283581018448 | dt: 2005.25ms | tok/sec:  2042.64
+Validation: (Step 5500), Generated text: Kohli comes forward and 1st Inns
+B 1st Inns
+B 1st Inns
+B 1st Inns
+B 1st Inns
+B 1st Inns
+B 1st Inns
+B 1
+step5510 | loss: 0.18661533296108246 | dt: 1995.89ms | tok/sec:  2052.22
+step5520 | loss: 0.16412048041820526 | dt: 1999.54ms | tok/sec:  2048.47
+step5530 | loss: 0.15810267627239227 | dt: 2010.64ms | tok/sec:  2037.16
+step5540 | loss: 0.18578635156154633 | dt: 2002.09ms | tok/sec:  2045.86
+step5550 | loss: 0.18032599985599518 | dt: 1999.14ms | tok/sec:  2048.89
+step5560 | loss: 0.17206142842769623 | dt: 2007.42ms | tok/sec:  2040.43
+step5570 | loss: 0.1529727578163147 | dt: 1991.15ms | tok/sec:  2057.10
+step5580 | loss: 0.16251060366630554 | dt: 2032.72ms | tok/sec:  2015.04
+step5590 | loss: 0.17445875704288483 | dt: 2016.08ms | tok/sec:  2031.67
+step5600 | loss: 0.15917085111141205 | dt: 2010.32ms | tok/sec:  2037.49
+step5610 | loss: 0.1719878613948822 | dt: 2036.92ms | tok/sec:  2010.87
+step5620 | loss: 0.09703485667705536 | dt: 1997.31ms | tok/sec:  2050.75
+step5630 | loss: 0.14917810261249542 | dt: 1995.53ms | tok/sec:  2052.59
+step5640 | loss: 0.14313684403896332 | dt: 1998.50ms | tok/sec:  2049.53
+step5650 | loss: 0.1565268635749817 | dt: 2018.66ms | tok/sec:  2029.07
+step5660 | loss: 0.12542924284934998 | dt: 2019.80ms | tok/sec:  2027.93
+step5670 | loss: 0.1314326673746109 | dt: 2014.26ms | tok/sec:  2033.50
+step5680 | loss: 0.1434096246957779 | dt: 1995.19ms | tok/sec:  2052.94
+step5690 | loss: 0.0945872887969017 | dt: 2019.07ms | tok/sec:  2028.66
+step5700 | loss: 0.1594366580247879 | dt: 2011.14ms | tok/sec:  2036.65
+step5710 | loss: 0.10381463170051575 | dt: 2024.16ms | tok/sec:  2023.56
+step5720 | loss: 0.12710198760032654 | dt: 2039.13ms | tok/sec:  2008.70
+step5730 | loss: 0.1541176736354828 | dt: 2039.77ms | tok/sec:  2008.07
+step5740 | loss: 0.16676640510559082 | dt: 2026.42ms | tok/sec:  2021.30
+step5750 | loss: 0.15207156538963318 | dt: 2002.13ms | tok/sec:  2045.82
+step5760 | loss: 0.15384045243263245 | dt: 2006.87ms | tok/sec:  2040.99
+step5770 | loss: 0.14164729416370392 | dt: 2040.27ms | tok/sec:  2007.57
+step5780 | loss: 0.15794207155704498 | dt: 2020.12ms | tok/sec:  2027.60
+step5790 | loss: 0.18098224699497223 | dt: 2018.09ms | tok/sec:  2029.64
+step5800 | loss: 0.15170159935951233 | dt: 2032.34ms | tok/sec:  2015.41
+step5810 | loss: 0.14799630641937256 | dt: 2017.16ms | tok/sec:  2030.58
+step5820 | loss: 0.1592266857624054 | dt: 2005.70ms | tok/sec:  2042.18
+step5830 | loss: 0.12837059795856476 | dt: 2013.04ms | tok/sec:  2034.74
+step5840 | loss: 0.16541914641857147 | dt: 2011.18ms | tok/sec:  2036.61
+step5850 | loss: 0.16248491406440735 | dt: 2002.12ms | tok/sec:  2045.83
+step5860 | loss: 0.15461358428001404 | dt: 2024.95ms | tok/sec:  2022.76
+step5870 | loss: 0.15815792977809906 | dt: 2003.27ms | tok/sec:  2044.66
+step5880 | loss: 0.1395753175020218 | dt: 1994.69ms | tok/sec:  2053.45
+step5890 | loss: 0.133721724152565 | dt: 2004.67ms | tok/sec:  2043.23
+step5900 | loss: 0.16694976389408112 | dt: 2023.52ms | tok/sec:  2024.20
+step5910 | loss: 0.1391436904668808 | dt: 2030.86ms | tok/sec:  2016.88
+step5920 | loss: 0.13576848804950714 | dt: 1990.13ms | tok/sec:  2058.16
+step5930 | loss: 0.14711375534534454 | dt: 1997.53ms | tok/sec:  2050.53
+step5940 | loss: 0.1234835609793663 | dt: 2000.51ms | tok/sec:  2047.48
+step5950 | loss: 0.11631941795349121 | dt: 2002.49ms | tok/sec:  2045.45
+step5960 | loss: 0.1384599804878235 | dt: 2022.28ms | tok/sec:  2025.43
+step5970 | loss: 0.13254836201667786 | dt: 2011.00ms | tok/sec:  2036.80
+step5980 | loss: 0.12149231135845184 | dt: 2019.44ms | tok/sec:  2028.28
+step5990 | loss: 0.1250935047864914 | dt: 2000.55ms | tok/sec:  2047.44
+step6000 | loss: 0.1512562483549118 | dt: 2008.11ms | tok/sec:  2039.73
+Validation: (Step 6000), Generated text: Kohli comes forward and 1st Inns
+SRHarbhir, SIX, SIX, SIX, SIX, SIX, SIX, SIX, SIX, SIX, SIX, SIX, SIX, SIX,
+step6010 | loss: 0.11261410266160965 | dt: 2002.10ms | tok/sec:  2045.85
+step6020 | loss: 0.09669750183820724 | dt: 2000.87ms | tok/sec:  2047.11
+step6030 | loss: 0.14819706976413727 | dt: 2001.67ms | tok/sec:  2046.29
+step6040 | loss: 0.13873519003391266 | dt: 2006.83ms | tok/sec:  2041.03
+step6050 | loss: 0.14199437201023102 | dt: 2029.55ms | tok/sec:  2018.18
+step6060 | loss: 0.1432284265756607 | dt: 2009.79ms | tok/sec:  2038.03
+step6070 | loss: 0.13401703536510468 | dt: 2007.13ms | tok/sec:  2040.73
+step6080 | loss: 0.14404264092445374 | dt: 2014.98ms | tok/sec:  2032.77
+step6090 | loss: 0.1473923623561859 | dt: 2005.18ms | tok/sec:  2042.71
+step6100 | loss: 0.13748864829540253 | dt: 2034.70ms | tok/sec:  2013.07
+step6110 | loss: 0.14824199676513672 | dt: 2018.97ms | tok/sec:  2028.76
+step6120 | loss: 0.14367835223674774 | dt: 2027.32ms | tok/sec:  2020.40
+step6130 | loss: 0.15136156976222992 | dt: 2023.41ms | tok/sec:  2024.30
+step6140 | loss: 0.1616842895746231 | dt: 2018.55ms | tok/sec:  2029.18
+step6150 | loss: 0.16972239315509796 | dt: 1993.78ms | tok/sec:  2054.39
+step6160 | loss: 0.1526036560535431 | dt: 2030.49ms | tok/sec:  2017.25
+step6170 | loss: 0.12476997822523117 | dt: 2025.55ms | tok/sec:  2022.17
+step6180 | loss: 0.11551517248153687 | dt: 2008.79ms | tok/sec:  2039.04
+step6190 | loss: 0.13981470465660095 | dt: 2041.08ms | tok/sec:  2006.78
+step6200 | loss: 0.13338063657283783 | dt: 2002.59ms | tok/sec:  2045.36
+step6210 | loss: 0.13865578174591064 | dt: 2003.33ms | tok/sec:  2044.60
+step6220 | loss: 0.14414182305335999 | dt: 2017.41ms | tok/sec:  2030.33
+step6230 | loss: 0.1353314071893692 | dt: 2023.75ms | tok/sec:  2023.96
+step6240 | loss: 0.12632368505001068 | dt: 2020.37ms | tok/sec:  2027.35
+step6250 | loss: 0.14627785980701447 | dt: 2000.97ms | tok/sec:  2047.00
+step6260 | loss: 0.1442262977361679 | dt: 2002.14ms | tok/sec:  2045.81
+step6270 | loss: 0.12646079063415527 | dt: 2019.44ms | tok/sec:  2028.28
+step6280 | loss: 0.10058563947677612 | dt: 1991.55ms | tok/sec:  2056.69
+step6290 | loss: 0.13660602271556854 | dt: 2008.11ms | tok/sec:  2039.72
+step6300 | loss: 0.13334773480892181 | dt: 2016.07ms | tok/sec:  2031.67
+step6310 | loss: 0.08776169270277023 | dt: 2004.37ms | tok/sec:  2043.53
+step6320 | loss: 0.12953872978687286 | dt: 1998.63ms | tok/sec:  2049.40
+step6330 | loss: 0.13986368477344513 | dt: 2010.91ms | tok/sec:  2036.89
+step6340 | loss: 0.1347782015800476 | dt: 1991.95ms | tok/sec:  2056.27
+step6350 | loss: 0.13255181908607483 | dt: 2028.23ms | tok/sec:  2019.50
+step6360 | loss: 0.12963423132896423 | dt: 2012.95ms | tok/sec:  2034.83
+step6370 | loss: 0.14311176538467407 | dt: 1998.22ms | tok/sec:  2049.82
+step6380 | loss: 0.12334699183702469 | dt: 1997.38ms | tok/sec:  2050.68
+step6390 | loss: 0.13758718967437744 | dt: 2009.47ms | tok/sec:  2038.35
+step6400 | loss: 0.13140423595905304 | dt: 2008.33ms | tok/sec:  2039.50
+step6410 | loss: 0.11969951540231705 | dt: 1990.86ms | tok/sec:  2057.41
+step6420 | loss: 0.12271531671285629 | dt: 1986.75ms | tok/sec:  2061.66
+step6430 | loss: 0.11945651471614838 | dt: 2003.33ms | tok/sec:  2044.60
+step6440 | loss: 0.11007171869277954 | dt: 1990.21ms | tok/sec:  2058.08
+step6450 | loss: 0.12421730160713196 | dt: 1992.45ms | tok/sec:  2055.76
+step6460 | loss: 0.12416569143533707 | dt: 2017.63ms | tok/sec:  2030.11
+step6470 | loss: 0.13572141528129578 | dt: 2001.89ms | tok/sec:  2046.07
+step6480 | loss: 0.14545784890651703 | dt: 2014.24ms | tok/sec:  2033.52
+step6490 | loss: 0.14421086013317108 | dt: 1981.61ms | tok/sec:  2067.00
+step6500 | loss: 0.11969374120235443 | dt: 1994.66ms | tok/sec:  2053.49
+Validation: (Step 6500), Generated text: Kohli comes forward and 1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+
+step6510 | loss: 0.08944430202245712 | dt: 2009.95ms | tok/sec:  2037.87
+step6520 | loss: 0.09919178485870361 | dt: 2007.78ms | tok/sec:  2040.06
+step6530 | loss: 0.12440972030162811 | dt: 1985.40ms | tok/sec:  2063.06
+step6540 | loss: 0.09816098213195801 | dt: 2000.94ms | tok/sec:  2047.04
+step6550 | loss: 0.11368648707866669 | dt: 1981.82ms | tok/sec:  2066.78
+step6560 | loss: 0.10960523039102554 | dt: 2011.88ms | tok/sec:  2035.91
+step6570 | loss: 0.1217670813202858 | dt: 2006.08ms | tok/sec:  2041.79
+step6580 | loss: 0.13687041401863098 | dt: 1988.19ms | tok/sec:  2060.17
+step6590 | loss: 0.10421492904424667 | dt: 1991.33ms | tok/sec:  2056.92
+step6600 | loss: 0.15143068134784698 | dt: 1997.18ms | tok/sec:  2050.89
+step6610 | loss: 0.12593486905097961 | dt: 2021.66ms | tok/sec:  2026.06
+step6620 | loss: 0.10775458812713623 | dt: 2005.93ms | tok/sec:  2041.95
+step6630 | loss: 0.09746198356151581 | dt: 2003.55ms | tok/sec:  2044.37
+step6640 | loss: 0.13329872488975525 | dt: 2001.50ms | tok/sec:  2046.46
+step6650 | loss: 0.11089180409908295 | dt: 2000.25ms | tok/sec:  2047.75
+step6660 | loss: 0.12290235608816147 | dt: 2303.88ms | tok/sec:  1777.87
+step6670 | loss: 0.10111124813556671 | dt: 1998.63ms | tok/sec:  2049.41
+step6680 | loss: 0.10866017639636993 | dt: 2037.62ms | tok/sec:  2010.19
+step6690 | loss: 0.13057167828083038 | dt: 2004.13ms | tok/sec:  2043.78
+step6700 | loss: 0.11629559844732285 | dt: 1985.32ms | tok/sec:  2063.14
+step6710 | loss: 0.10962260514497757 | dt: 1993.84ms | tok/sec:  2054.33
+step6720 | loss: 0.12023821473121643 | dt: 2013.01ms | tok/sec:  2034.76
+step6730 | loss: 0.12704463303089142 | dt: 2012.62ms | tok/sec:  2035.16
+step6740 | loss: 0.13803276419639587 | dt: 2003.61ms | tok/sec:  2044.31
+step6750 | loss: 0.11102963984012604 | dt: 2025.81ms | tok/sec:  2021.91
+step6760 | loss: 0.12517152726650238 | dt: 2010.65ms | tok/sec:  2037.15
+step6770 | loss: 0.11916452646255493 | dt: 2002.94ms | tok/sec:  2044.99
+step6780 | loss: 0.1543121635913849 | dt: 2025.32ms | tok/sec:  2022.39
+step6790 | loss: 0.11837676912546158 | dt: 2033.64ms | tok/sec:  2014.13
+step6800 | loss: 0.11210495978593826 | dt: 2008.56ms | tok/sec:  2039.28
+step6810 | loss: 0.11860775202512741 | dt: 2062.42ms | tok/sec:  1986.01
+step6820 | loss: 0.11925489455461502 | dt: 2013.88ms | tok/sec:  2033.89
+step6830 | loss: 0.12650495767593384 | dt: 2000.03ms | tok/sec:  2047.97
+step6840 | loss: 0.14004625380039215 | dt: 2017.64ms | tok/sec:  2030.10
+step6850 | loss: 0.12467602640390396 | dt: 2001.84ms | tok/sec:  2046.12
+step6860 | loss: 0.07351301610469818 | dt: 2008.32ms | tok/sec:  2039.52
+step6870 | loss: 0.10613827407360077 | dt: 2040.12ms | tok/sec:  2007.72
+step6880 | loss: 0.11000793427228928 | dt: 2015.84ms | tok/sec:  2031.91
+step6890 | loss: 0.1365775167942047 | dt: 2008.23ms | tok/sec:  2039.61
+step6900 | loss: 0.11174432188272476 | dt: 2019.46ms | tok/sec:  2028.27
+step6910 | loss: 0.12290610373020172 | dt: 2007.40ms | tok/sec:  2040.45
+step6920 | loss: 0.1151120662689209 | dt: 2020.72ms | tok/sec:  2027.00
+step6930 | loss: 0.07084999978542328 | dt: 2013.00ms | tok/sec:  2034.78
+step6940 | loss: 0.11194439977407455 | dt: 1994.43ms | tok/sec:  2053.72
+step6950 | loss: 0.06636998057365417 | dt: 2010.83ms | tok/sec:  2036.97
+step6960 | loss: 0.1277971714735031 | dt: 2001.80ms | tok/sec:  2046.16
+step6970 | loss: 0.12728232145309448 | dt: 2008.10ms | tok/sec:  2039.74
+step6980 | loss: 0.1535331755876541 | dt: 2031.70ms | tok/sec:  2016.05
+step6990 | loss: 0.12169153988361359 | dt: 2006.99ms | tok/sec:  2040.87
+step7000 | loss: 0.1150689646601677 | dt: 2002.10ms | tok/sec:  2045.86
+Validation: (Step 7000), Generated text: Kohli comes forward and 1st Inns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+step7010 | loss: 0.11144333332777023 | dt: 2031.21ms | tok/sec:  2016.53
+step7020 | loss: 0.11451505869626999 | dt: 2040.28ms | tok/sec:  2007.57
+step7030 | loss: 0.11834990978240967 | dt: 1999.14ms | tok/sec:  2048.89
+step7040 | loss: 0.13320845365524292 | dt: 2027.48ms | tok/sec:  2020.24
+step7050 | loss: 0.1011015772819519 | dt: 2002.39ms | tok/sec:  2045.55
+step7060 | loss: 0.12259592860937119 | dt: 2011.20ms | tok/sec:  2036.59
+step7070 | loss: 0.0913952961564064 | dt: 2041.75ms | tok/sec:  2006.12
+step7080 | loss: 0.14854751527309418 | dt: 1997.55ms | tok/sec:  2050.51
+step7090 | loss: 0.118030846118927 | dt: 1976.39ms | tok/sec:  2072.47
+step7100 | loss: 0.09509589523077011 | dt: 2007.15ms | tok/sec:  2040.71
+step7110 | loss: 0.09884439408779144 | dt: 1996.94ms | tok/sec:  2051.14
+step7120 | loss: 0.09962150454521179 | dt: 2032.60ms | tok/sec:  2015.15
+step7130 | loss: 0.10553533583879471 | dt: 1998.53ms | tok/sec:  2049.51
+step7140 | loss: 0.11810808628797531 | dt: 2030.68ms | tok/sec:  2017.06
+step7150 | loss: 0.09689929336309433 | dt: 1996.57ms | tok/sec:  2051.52
+step7160 | loss: 0.12274985760450363 | dt: 2007.89ms | tok/sec:  2039.95
+step7170 | loss: 0.10911738127470016 | dt: 1997.92ms | tok/sec:  2050.13
+step7180 | loss: 0.09492256492376328 | dt: 2001.64ms | tok/sec:  2046.33
+step7190 | loss: 0.08433030545711517 | dt: 2001.77ms | tok/sec:  2046.19
+step7200 | loss: 0.11266739666461945 | dt: 2021.16ms | tok/sec:  2026.56
+step7210 | loss: 0.09934747219085693 | dt: 1996.25ms | tok/sec:  2051.84
+step7220 | loss: 0.10797760635614395 | dt: 2016.24ms | tok/sec:  2031.51
+step7230 | loss: 0.12640313804149628 | dt: 2008.42ms | tok/sec:  2039.42
+step7240 | loss: 0.13881875574588776 | dt: 2009.26ms | tok/sec:  2038.56
+step7250 | loss: 0.11616203933954239 | dt: 2011.01ms | tok/sec:  2036.78
+step7260 | loss: 0.09876760095357895 | dt: 2010.47ms | tok/sec:  2037.33
+step7270 | loss: 0.12397648394107819 | dt: 1988.08ms | tok/sec:  2060.28
+step7280 | loss: 0.121059350669384 | dt: 1995.65ms | tok/sec:  2052.46
+step7290 | loss: 0.1329479068517685 | dt: 2007.51ms | tok/sec:  2040.34
+step7300 | loss: 0.10186967998743057 | dt: 2009.72ms | tok/sec:  2038.09
+step7310 | loss: 0.08912234008312225 | dt: 2028.75ms | tok/sec:  2018.98
+step7320 | loss: 0.09998536109924316 | dt: 1989.29ms | tok/sec:  2059.02
+step7330 | loss: 0.11366641521453857 | dt: 2001.76ms | tok/sec:  2046.20
+step7340 | loss: 0.092631496489048 | dt: 1996.46ms | tok/sec:  2051.63
+step7350 | loss: 0.1104087382555008 | dt: 2005.28ms | tok/sec:  2042.61
+step7360 | loss: 0.11164243519306183 | dt: 2012.67ms | tok/sec:  2035.11
+step7370 | loss: 0.11902419477701187 | dt: 1998.38ms | tok/sec:  2049.66
+step7380 | loss: 0.11829302459955215 | dt: 2022.75ms | tok/sec:  2024.96
+step7390 | loss: 0.11985749006271362 | dt: 2002.27ms | tok/sec:  2045.68
+step7400 | loss: 0.12426993995904922 | dt: 1999.30ms | tok/sec:  2048.71
+step7410 | loss: 0.09031523019075394 | dt: 2004.56ms | tok/sec:  2043.35
+step7420 | loss: 0.11248724907636642 | dt: 1999.90ms | tok/sec:  2048.11
+step7430 | loss: 0.11076713353395462 | dt: 2018.25ms | tok/sec:  2029.48
+step7440 | loss: 0.1038246676325798 | dt: 2018.61ms | tok/sec:  2029.12
+step7450 | loss: 0.11233530193567276 | dt: 2008.07ms | tok/sec:  2039.77
+step7460 | loss: 0.11813891679048538 | dt: 2027.46ms | tok/sec:  2020.26
+step7470 | loss: 0.10038117319345474 | dt: 2009.76ms | tok/sec:  2038.05
+step7480 | loss: 0.11713547259569168 | dt: 2004.33ms | tok/sec:  2043.57
+step7490 | loss: 0.1056646853685379 | dt: 2013.33ms | tok/sec:  2034.44
+step7500 | loss: 0.09344568848609924 | dt: 2025.59ms | tok/sec:  2022.13
+Validation: (Step 7500), Generated text: Kohli comes forward and 1st Inns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+step7510 | loss: 0.09880305081605911 | dt: 2005.16ms | tok/sec:  2042.73
+step7520 | loss: 0.0862712413072586 | dt: 2012.43ms | tok/sec:  2035.35
+step7530 | loss: 0.1109405905008316 | dt: 2015.88ms | tok/sec:  2031.86
+step7540 | loss: 0.14556823670864105 | dt: 1997.49ms | tok/sec:  2050.58
+step7550 | loss: 0.09492781013250351 | dt: 1996.20ms | tok/sec:  2051.90
+step7560 | loss: 0.1265321522951126 | dt: 1996.85ms | tok/sec:  2051.23
+step7570 | loss: 0.1016499251127243 | dt: 1997.16ms | tok/sec:  2050.91
+step7580 | loss: 0.09891922026872635 | dt: 1984.85ms | tok/sec:  2063.63
+step7590 | loss: 0.11374638229608536 | dt: 1984.20ms | tok/sec:  2064.30
+step7600 | loss: 0.10927280783653259 | dt: 2005.03ms | tok/sec:  2042.86
+step7610 | loss: 0.10824030637741089 | dt: 1985.67ms | tok/sec:  2062.78
+step7620 | loss: 0.1002226322889328 | dt: 1994.86ms | tok/sec:  2053.27
+step7630 | loss: 0.08895446360111237 | dt: 2016.36ms | tok/sec:  2031.38
+step7640 | loss: 0.09652837365865707 | dt: 1991.91ms | tok/sec:  2056.32
+step7650 | loss: 0.09426107257604599 | dt: 2010.63ms | tok/sec:  2037.17
+step7660 | loss: 0.09103674441576004 | dt: 2010.41ms | tok/sec:  2037.40
+step7670 | loss: 0.07788819074630737 | dt: 2011.75ms | tok/sec:  2036.04
+step7680 | loss: 0.08184300363063812 | dt: 2007.18ms | tok/sec:  2040.68
+step7690 | loss: 0.11181207001209259 | dt: 1990.95ms | tok/sec:  2057.31
+step7700 | loss: 0.09961041808128357 | dt: 2021.25ms | tok/sec:  2026.46
+step7710 | loss: 0.1004510447382927 | dt: 2005.11ms | tok/sec:  2042.78
+step7720 | loss: 0.10509048402309418 | dt: 2021.16ms | tok/sec:  2026.56
+step7730 | loss: 0.11224360764026642 | dt: 1987.97ms | tok/sec:  2060.39
+step7740 | loss: 0.09807831048965454 | dt: 2021.06ms | tok/sec:  2026.66
+step7750 | loss: 0.06619855016469955 | dt: 1998.10ms | tok/sec:  2049.94
+step7760 | loss: 0.07687845081090927 | dt: 2002.59ms | tok/sec:  2045.35
+step7770 | loss: 0.108314149081707 | dt: 2009.56ms | tok/sec:  2038.26
+step7780 | loss: 0.1128469854593277 | dt: 2002.30ms | tok/sec:  2045.65
+step7790 | loss: 0.11645621061325073 | dt: 2003.42ms | tok/sec:  2044.51
+step7800 | loss: 0.09250833839178085 | dt: 2006.01ms | tok/sec:  2041.86
+step7810 | loss: 0.08462458103895187 | dt: 2016.79ms | tok/sec:  2030.95
+step7820 | loss: 0.10062268376350403 | dt: 2011.70ms | tok/sec:  2036.09
+step7830 | loss: 0.08385565876960754 | dt: 2336.74ms | tok/sec:  1752.87
+step7840 | loss: 0.07942799478769302 | dt: 2005.32ms | tok/sec:  2042.57
+step7850 | loss: 0.09061776846647263 | dt: 2017.10ms | tok/sec:  2030.64
+step7860 | loss: 0.09982180595397949 | dt: 1978.72ms | tok/sec:  2070.03
+step7870 | loss: 0.08250482380390167 | dt: 1985.72ms | tok/sec:  2062.73
+step7880 | loss: 0.09284670650959015 | dt: 1983.12ms | tok/sec:  2065.43
+step7890 | loss: 0.09887842833995819 | dt: 2014.48ms | tok/sec:  2033.28
+step7900 | loss: 0.07747920602560043 | dt: 2006.17ms | tok/sec:  2041.71
+step7910 | loss: 0.11900642514228821 | dt: 1990.40ms | tok/sec:  2057.88
+step7920 | loss: 0.11703261733055115 | dt: 2012.74ms | tok/sec:  2035.03
+step7930 | loss: 0.1017821654677391 | dt: 1985.22ms | tok/sec:  2063.25
+step7940 | loss: 0.09955740720033646 | dt: 2006.34ms | tok/sec:  2041.53
+step7950 | loss: 0.09395693987607956 | dt: 1992.08ms | tok/sec:  2056.14
+step7960 | loss: 0.10563816875219345 | dt: 2001.97ms | tok/sec:  2045.99
+step7970 | loss: 0.1022304967045784 | dt: 2005.69ms | tok/sec:  2042.19
+step7980 | loss: 0.10867050290107727 | dt: 1993.33ms | tok/sec:  2054.85
+step7990 | loss: 0.09682128578424454 | dt: 1996.25ms | tok/sec:  2051.84
+step8000 | loss: 0.08328154683113098 | dt: 2011.23ms | tok/sec:  2036.56
+Validation: (Step 8000), Generated text: Kohli comes forward and 1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+
+step8010 | loss: 0.1145486906170845 | dt: 1993.22ms | tok/sec:  2054.96
+step8020 | loss: 0.10955002158880234 | dt: 2016.17ms | tok/sec:  2031.58
+step8030 | loss: 0.11982038617134094 | dt: 2000.48ms | tok/sec:  2047.51
+step8040 | loss: 0.10909117013216019 | dt: 2000.16ms | tok/sec:  2047.83
+step8050 | loss: 0.0851966142654419 | dt: 2013.22ms | tok/sec:  2034.55
+step8060 | loss: 0.10161609202623367 | dt: 1986.25ms | tok/sec:  2062.18
+step8070 | loss: 0.09754613786935806 | dt: 1990.41ms | tok/sec:  2057.87
+step8080 | loss: 0.09818718582391739 | dt: 1996.59ms | tok/sec:  2051.50
+step8090 | loss: 0.09250712394714355 | dt: 2000.38ms | tok/sec:  2047.61
+step8100 | loss: 0.05829509720206261 | dt: 1991.78ms | tok/sec:  2056.45
+step8110 | loss: 0.08489678055047989 | dt: 1974.34ms | tok/sec:  2074.62
+step8120 | loss: 0.08897114545106888 | dt: 1998.47ms | tok/sec:  2049.57
+step8130 | loss: 0.09877323359251022 | dt: 2016.91ms | tok/sec:  2030.83
+step8140 | loss: 0.07831840962171555 | dt: 1997.14ms | tok/sec:  2050.93
+step8150 | loss: 0.10139241814613342 | dt: 1987.55ms | tok/sec:  2060.83
+step8160 | loss: 0.09889782220125198 | dt: 2000.60ms | tok/sec:  2047.39
+step8170 | loss: 0.05831611901521683 | dt: 2015.64ms | tok/sec:  2032.11
+step8180 | loss: 0.09351589530706406 | dt: 2011.17ms | tok/sec:  2036.63
+step8190 | loss: 0.06268247961997986 | dt: 1989.26ms | tok/sec:  2059.05
+step8200 | loss: 0.08590544015169144 | dt: 1998.28ms | tok/sec:  2049.76
+step8210 | loss: 0.10707387328147888 | dt: 1999.65ms | tok/sec:  2048.36
+step8220 | loss: 0.07634162157773972 | dt: 2008.50ms | tok/sec:  2039.33
+step8230 | loss: 0.0981760025024414 | dt: 2004.01ms | tok/sec:  2043.90
+step8240 | loss: 0.09416063129901886 | dt: 2054.16ms | tok/sec:  1994.00
+step8250 | loss: 0.0995117574930191 | dt: 2003.42ms | tok/sec:  2044.51
+step8260 | loss: 0.10837029665708542 | dt: 1985.56ms | tok/sec:  2062.89
+step8270 | loss: 0.09123200178146362 | dt: 2008.04ms | tok/sec:  2039.80
+step8280 | loss: 0.08299113065004349 | dt: 1986.54ms | tok/sec:  2061.88
+step8290 | loss: 0.09112809598445892 | dt: 1994.74ms | tok/sec:  2053.40
+step8300 | loss: 0.09902336448431015 | dt: 1977.78ms | tok/sec:  2071.01
+step8310 | loss: 0.07259896397590637 | dt: 2001.84ms | tok/sec:  2046.12
+step8320 | loss: 0.08941951394081116 | dt: 1994.20ms | tok/sec:  2053.95
+step8330 | loss: 0.09026851505041122 | dt: 1998.87ms | tok/sec:  2049.16
+step8340 | loss: 0.08030898123979568 | dt: 1990.12ms | tok/sec:  2058.17
+step8350 | loss: 0.0740383043885231 | dt: 2045.39ms | tok/sec:  2002.55
+step8360 | loss: 0.07926949858665466 | dt: 1998.39ms | tok/sec:  2049.65
+step8370 | loss: 0.08378792554140091 | dt: 2005.47ms | tok/sec:  2042.42
+step8380 | loss: 0.10689209401607513 | dt: 2014.93ms | tok/sec:  2032.83
+step8390 | loss: 0.08725980669260025 | dt: 2025.33ms | tok/sec:  2022.38
+step8400 | loss: 0.0913703441619873 | dt: 2001.38ms | tok/sec:  2046.59
+step8410 | loss: 0.10984340310096741 | dt: 2006.20ms | tok/sec:  2041.67
+step8420 | loss: 0.07723671942949295 | dt: 1981.41ms | tok/sec:  2067.21
+step8430 | loss: 0.06527586281299591 | dt: 2002.40ms | tok/sec:  2045.54
+step8440 | loss: 0.08509863913059235 | dt: 1992.43ms | tok/sec:  2055.78
+step8450 | loss: 0.08562010526657104 | dt: 2010.53ms | tok/sec:  2037.27
+step8460 | loss: 0.09179716557264328 | dt: 1996.02ms | tok/sec:  2052.09
+step8470 | loss: 0.07624578475952148 | dt: 2018.69ms | tok/sec:  2029.04
+step8480 | loss: 0.11717113852500916 | dt: 1996.77ms | tok/sec:  2051.31
+step8490 | loss: 0.09249471127986908 | dt: 2008.96ms | tok/sec:  2038.87
+step8500 | loss: 0.06310347467660904 | dt: 2025.06ms | tok/sec:  2022.66
+Validation: (Step 8500), Generated text: Kohli comes forward and 1st Inns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+step8510 | loss: 0.07909495383501053 | dt: 2028.61ms | tok/sec:  2019.12
+step8520 | loss: 0.0849442407488823 | dt: 2006.25ms | tok/sec:  2041.62
+step8530 | loss: 0.1092962771654129 | dt: 2008.95ms | tok/sec:  2038.87
+step8540 | loss: 0.09598061442375183 | dt: 2004.89ms | tok/sec:  2043.01
+step8550 | loss: 0.06828293949365616 | dt: 2009.25ms | tok/sec:  2038.57
+step8560 | loss: 0.09338357299566269 | dt: 1990.21ms | tok/sec:  2058.07
+step8570 | loss: 0.09850452840328217 | dt: 2000.60ms | tok/sec:  2047.39
+step8580 | loss: 0.05907107889652252 | dt: 2006.51ms | tok/sec:  2041.36
+step8590 | loss: 0.06736958026885986 | dt: 2002.29ms | tok/sec:  2045.65
+step8600 | loss: 0.08429346978664398 | dt: 1990.69ms | tok/sec:  2057.57
+step8610 | loss: 0.08821049332618713 | dt: 1988.62ms | tok/sec:  2059.72
+step8620 | loss: 0.08477599173784256 | dt: 2040.11ms | tok/sec:  2007.74
+step8630 | loss: 0.07638192176818848 | dt: 2013.80ms | tok/sec:  2033.97
+step8640 | loss: 0.09862242639064789 | dt: 1990.05ms | tok/sec:  2058.24
+step8650 | loss: 0.09760825335979462 | dt: 1997.26ms | tok/sec:  2050.81
+step8660 | loss: 0.08491989225149155 | dt: 2009.02ms | tok/sec:  2038.81
+step8670 | loss: 0.09003115445375443 | dt: 1997.04ms | tok/sec:  2051.03
+step8680 | loss: 0.07729699462652206 | dt: 2007.18ms | tok/sec:  2040.67
+step8690 | loss: 0.06784941256046295 | dt: 2019.37ms | tok/sec:  2028.35
+step8700 | loss: 0.11659019440412521 | dt: 2007.33ms | tok/sec:  2040.52
+step8710 | loss: 0.10317201167345047 | dt: 1996.44ms | tok/sec:  2051.65
+step8720 | loss: 0.0961967185139656 | dt: 1998.79ms | tok/sec:  2049.24
+step8730 | loss: 0.0997396856546402 | dt: 1992.18ms | tok/sec:  2056.03
+step8740 | loss: 0.09174376726150513 | dt: 2013.56ms | tok/sec:  2034.21
+step8750 | loss: 0.06489470601081848 | dt: 2015.38ms | tok/sec:  2032.37
+step8760 | loss: 0.05595161020755768 | dt: 2013.45ms | tok/sec:  2034.32
+step8770 | loss: 0.06545870751142502 | dt: 1999.46ms | tok/sec:  2048.56
+step8780 | loss: 0.09609442204236984 | dt: 2013.18ms | tok/sec:  2034.59
+step8790 | loss: 0.07305891066789627 | dt: 2052.94ms | tok/sec:  1995.19
+step8800 | loss: 0.07628979533910751 | dt: 2013.75ms | tok/sec:  2034.01
+step8810 | loss: 0.07757693529129028 | dt: 2021.78ms | tok/sec:  2025.94
+step8820 | loss: 0.08640240132808685 | dt: 2014.43ms | tok/sec:  2033.33
+step8830 | loss: 0.08570006489753723 | dt: 2017.53ms | tok/sec:  2030.20
+step8840 | loss: 0.08719800412654877 | dt: 2011.96ms | tok/sec:  2035.83
+step8850 | loss: 0.07737528532743454 | dt: 1994.72ms | tok/sec:  2053.42
+step8860 | loss: 0.08656647801399231 | dt: 2015.74ms | tok/sec:  2032.01
+step8870 | loss: 0.0816727727651596 | dt: 2008.49ms | tok/sec:  2039.34
+step8880 | loss: 0.07547691464424133 | dt: 2015.09ms | tok/sec:  2032.66
+step8890 | loss: 0.09423918277025223 | dt: 1994.08ms | tok/sec:  2054.08
+step8900 | loss: 0.08394120633602142 | dt: 2030.19ms | tok/sec:  2017.54
+step8910 | loss: 0.08220488578081131 | dt: 2016.30ms | tok/sec:  2031.44
+step8920 | loss: 0.08657769113779068 | dt: 2003.68ms | tok/sec:  2044.24
+step8930 | loss: 0.08430057018995285 | dt: 2004.27ms | tok/sec:  2043.63
+step8940 | loss: 0.08462382853031158 | dt: 2001.73ms | tok/sec:  2046.23
+step8950 | loss: 0.10239819437265396 | dt: 2004.76ms | tok/sec:  2043.14
+step8960 | loss: 0.11156021803617477 | dt: 2002.65ms | tok/sec:  2045.29
+step8970 | loss: 0.09613300859928131 | dt: 1999.28ms | tok/sec:  2048.74
+step8980 | loss: 0.0926450714468956 | dt: 2015.24ms | tok/sec:  2032.51
+step8990 | loss: 0.046731021255254745 | dt: 1992.20ms | tok/sec:  2056.02
+step9000 | loss: 0.055276285856962204 | dt: 2012.30ms | tok/sec:  2035.48
+Validation: (Step 9000), Generated text: Kohli comes forward and 1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+1st Inns
+
+step9010 | loss: 0.06995540112257004 | dt: 2008.64ms | tok/sec:  2039.19
+step9020 | loss: 0.07078597694635391 | dt: 2011.28ms | tok/sec:  2036.52
+step9030 | loss: 0.08004102855920792 | dt: 2008.92ms | tok/sec:  2038.90
+step9040 | loss: 0.09078194200992584 | dt: 2022.64ms | tok/sec:  2025.07
+step9050 | loss: 0.06525752693414688 | dt: 2012.19ms | tok/sec:  2035.59
+step9060 | loss: 0.07636718451976776 | dt: 2007.95ms | tok/sec:  2039.89
+step9070 | loss: 0.07116304337978363 | dt: 2012.49ms | tok/sec:  2035.29
+step9080 | loss: 0.07568126171827316 | dt: 2022.51ms | tok/sec:  2025.21
+step9090 | loss: 0.07835306972265244 | dt: 1994.01ms | tok/sec:  2054.15
+step9100 | loss: 0.07921905070543289 | dt: 2005.72ms | tok/sec:  2042.16
+step9110 | loss: 0.08712173998355865 | dt: 2019.86ms | tok/sec:  2027.86
+step9120 | loss: 0.0734337642788887 | dt: 2036.20ms | tok/sec:  2011.59
+step9130 | loss: 0.08250785619020462 | dt: 2006.67ms | tok/sec:  2041.19
+step9140 | loss: 0.0744619145989418 | dt: 2009.17ms | tok/sec:  2038.65
+step9150 | loss: 0.08275149762630463 | dt: 2015.05ms | tok/sec:  2032.70
+step9160 | loss: 0.07860548049211502 | dt: 2011.59ms | tok/sec:  2036.20
+step9170 | loss: 0.09542291611433029 | dt: 2011.37ms | tok/sec:  2036.42
+step9180 | loss: 0.08451720327138901 | dt: 1992.31ms | tok/sec:  2055.91
+step9190 | loss: 0.08317448943853378 | dt: 2003.97ms | tok/sec:  2043.95
+step9200 | loss: 0.09055715799331665 | dt: 2010.09ms | tok/sec:  2037.71
+step9210 | loss: 0.09393251687288284 | dt: 1994.05ms | tok/sec:  2054.11
+step9220 | loss: 0.10052601248025894 | dt: 1993.16ms | tok/sec:  2055.03
+step9230 | loss: 0.08262354880571365 | dt: 2025.37ms | tok/sec:  2022.35
+step9240 | loss: 0.07081519812345505 | dt: 2015.14ms | tok/sec:  2032.61
+step9250 | loss: 0.08592234551906586 | dt: 1990.18ms | tok/sec:  2058.11
+step9260 | loss: 0.09410572797060013 | dt: 2008.04ms | tok/sec:  2039.80
+step9270 | loss: 0.08820562064647675 | dt: 2004.47ms | tok/sec:  2043.43
+step9280 | loss: 0.097755067050457 | dt: 1994.34ms | tok/sec:  2053.81
+step9290 | loss: 0.07838389277458191 | dt: 2012.91ms | tok/sec:  2034.86
+step9300 | loss: 0.0893956795334816 | dt: 2004.43ms | tok/sec:  2043.48
+step9310 | loss: 0.08447658270597458 | dt: 1990.78ms | tok/sec:  2057.48
+step9320 | loss: 0.09476158022880554 | dt: 2000.56ms | tok/sec:  2047.43
+step9330 | loss: 0.08527044206857681 | dt: 2007.06ms | tok/sec:  2040.79
+step9340 | loss: 0.04579769819974899 | dt: 1992.62ms | tok/sec:  2055.59
+step9350 | loss: 0.0682561919093132 | dt: 2011.22ms | tok/sec:  2036.58
+step9360 | loss: 0.07229169458150864 | dt: 1998.89ms | tok/sec:  2049.14
+step9370 | loss: 0.09086284041404724 | dt: 2021.58ms | tok/sec:  2026.14
+step9380 | loss: 0.07373504340648651 | dt: 2007.31ms | tok/sec:  2040.54
+step9390 | loss: 0.07737849652767181 | dt: 2026.12ms | tok/sec:  2021.60
+step9400 | loss: 0.0752459391951561 | dt: 2016.20ms | tok/sec:  2031.54
+step9410 | loss: 0.04860062897205353 | dt: 2022.43ms | tok/sec:  2025.29
+step9420 | loss: 0.0666615441441536 | dt: 1994.03ms | tok/sec:  2054.13
+step9430 | loss: 0.06025632843375206 | dt: 2017.66ms | tok/sec:  2030.07
+step9440 | loss: 0.08406738191843033 | dt: 2006.92ms | tok/sec:  2040.94
+step9450 | loss: 0.07935521751642227 | dt: 1996.57ms | tok/sec:  2051.52
+step9460 | loss: 0.07973682880401611 | dt: 2010.29ms | tok/sec:  2037.52
+step9470 | loss: 0.08014671504497528 | dt: 1999.39ms | tok/sec:  2048.63
+step9480 | loss: 0.094662144780159 | dt: 1991.50ms | tok/sec:  2056.74
+step9490 | loss: 0.07738437503576279 | dt: 2010.16ms | tok/sec:  2037.64
+step9500 | loss: 0.06158154830336571 | dt: 2016.16ms | tok/sec:  2031.59
+Validation: (Step 9500), Generated text: Kohli comes forward and 1st Inns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+step9510 | loss: 0.07466576993465424 | dt: 2007.89ms | tok/sec:  2039.96
+step9520 | loss: 0.08167508244514465 | dt: 2020.77ms | tok/sec:  2026.95
+step9530 | loss: 0.07576776295900345 | dt: 2012.86ms | tok/sec:  2034.91
+step9540 | loss: 0.07226220518350601 | dt: 2001.34ms | tok/sec:  2046.63
+step9550 | loss: 0.06133858859539032 | dt: 2005.88ms | tok/sec:  2042.00
+step9560 | loss: 0.07354886829853058 | dt: 1994.17ms | tok/sec:  2053.99
+step9570 | loss: 0.08964411914348602 | dt: 2006.83ms | tok/sec:  2041.03
+step9580 | loss: 0.07455289363861084 | dt: 2010.53ms | tok/sec:  2037.28
+step9590 | loss: 0.06449303030967712 | dt: 1988.34ms | tok/sec:  2060.01
+step9600 | loss: 0.07194286584854126 | dt: 1993.77ms | tok/sec:  2054.40
+step9610 | loss: 0.05902843922376633 | dt: 1996.38ms | tok/sec:  2051.72
+step9620 | loss: 0.09934164583683014 | dt: 2013.70ms | tok/sec:  2034.07
+step9630 | loss: 0.09936762601137161 | dt: 1995.91ms | tok/sec:  2052.20
+step9640 | loss: 0.06592690199613571 | dt: 1996.01ms | tok/sec:  2052.09
+step9650 | loss: 0.07734710723161697 | dt: 2006.68ms | tok/sec:  2041.18
+step9660 | loss: 0.06328447163105011 | dt: 2018.36ms | tok/sec:  2029.37
+step9670 | loss: 0.05552241951227188 | dt: 2013.87ms | tok/sec:  2033.89
+step9680 | loss: 0.07379094511270523 | dt: 2019.77ms | tok/sec:  2027.96
+step9690 | loss: 0.08762414753437042 | dt: 2011.87ms | tok/sec:  2035.91
+step9700 | loss: 0.07086571305990219 | dt: 2018.12ms | tok/sec:  2029.61
+step9710 | loss: 0.07808253914117813 | dt: 2011.77ms | tok/sec:  2036.02
+step9720 | loss: 0.09742899984121323 | dt: 2012.38ms | tok/sec:  2035.40
+step9730 | loss: 0.07701634615659714 | dt: 2003.62ms | tok/sec:  2044.30
+step9740 | loss: 0.05871967598795891 | dt: 1995.62ms | tok/sec:  2052.50
+step9750 | loss: 0.062240131199359894 | dt: 2002.60ms | tok/sec:  2045.34
+step9760 | loss: 0.08612700551748276 | dt: 2000.16ms | tok/sec:  2047.84
+step9770 | loss: 0.0684099867939949 | dt: 1996.05ms | tok/sec:  2052.05
+step9780 | loss: 0.08763065189123154 | dt: 2044.61ms | tok/sec:  2003.31
+step9790 | loss: 0.06544192880392075 | dt: 2002.99ms | tok/sec:  2044.94
+step9800 | loss: 0.07976400852203369 | dt: 1998.76ms | tok/sec:  2049.27
+step9810 | loss: 0.08238204568624496 | dt: 2032.77ms | tok/sec:  2014.99
+step9820 | loss: 0.053803637623786926 | dt: 2007.62ms | tok/sec:  2040.22
+step9830 | loss: 0.07872576266527176 | dt: 2015.56ms | tok/sec:  2032.19
+step9840 | loss: 0.09004605561494827 | dt: 1986.45ms | tok/sec:  2061.97
+step9850 | loss: 0.074969582259655 | dt: 1993.17ms | tok/sec:  2055.02
+step9860 | loss: 0.0846974104642868 | dt: 2012.67ms | tok/sec:  2035.11
+step9870 | loss: 0.07111480832099915 | dt: 1991.37ms | tok/sec:  2056.88
+step9880 | loss: 0.08980842679738998 | dt: 2001.64ms | tok/sec:  2046.33
+step9890 | loss: 0.07366511970758438 | dt: 1998.16ms | tok/sec:  2049.88
+step9900 | loss: 0.07845361530780792 | dt: 2007.53ms | tok/sec:  2040.31
+step9910 | loss: 0.07817139476537704 | dt: 1998.79ms | tok/sec:  2049.24
+step9920 | loss: 0.08088140934705734 | dt: 1992.25ms | tok/sec:  2055.97
+step9930 | loss: 0.08332135528326035 | dt: 1999.77ms | tok/sec:  2048.24
+step9940 | loss: 0.06706588715314865 | dt: 2004.64ms | tok/sec:  2043.26
+step9950 | loss: 0.07309224456548691 | dt: 2319.89ms | tok/sec:  1765.60
+step9960 | loss: 0.09003520756959915 | dt: 2006.13ms | tok/sec:  2041.75
+step9970 | loss: 0.0811273455619812 | dt: 2030.07ms | tok/sec:  2017.66
+step9980 | loss: 0.08933334052562714 | dt: 1998.28ms | tok/sec:  2049.76
+step9990 | loss: 0.05730853229761124 | dt: 2011.85ms | tok/sec:  2035.94
+step10000 | loss: 0.05412352457642555 | dt: 2016.48ms | tok/sec:  2031.26
+Checkpoint saved at checkpoints/checkpoint_10000.pth
+Validation: (Step 10000), Generated text: Kohli comes forward and 19) [4. On the decision as well. On the decision as well. On the decision as well. On the decision as well. On the decision as well. On the decision as well. On the decision as well. On the
+Reached maximum training steps.
